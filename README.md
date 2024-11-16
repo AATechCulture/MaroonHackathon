@@ -1,40 +1,53 @@
-# MaroonHackathon
+# Black Enterprise BE Smart Hackathon
 
 # 📍 Career Compass: Navigating Your Path to Success 🎓
 
-Welcome to **Career Compass**, the ultimate AI-driven guide designed to help students navigate the often overwhelming world of major and career selection. Whether you're undecided, reconsidering your current path, or just need clarity on your next steps, Career Compass is here to chart a personalized roadmap to success!
+Welcome to **Career Compass**, the ultimate AI-driven guide for students navigating the complex world of major and career selection. Whether you're undecided, reconsidering your current path, or seeking clarity on your next steps, **Career Compass** is here to chart a personalized roadmap to success!
 
 ---
 
-## 🚀 What's Career Compass?
-Career Compass is an innovative application that uses **AI technology** to:
-- Assist students in identifying the best-fit major based on their **interests** and **passions**.
-- Provide a personalized **course roadmap** for each year of study at their chosen university.
-- Empower users to make informed decisions about their education and career.
+## 🎯 Challenge Statement(s) Addressed  
 
-With Career Compass, students can go from unsure to unstoppable!
+### How might we:
+- Assist students in making more informed decisions about their majors and careers based on personal interests, passions, and goals?  
+- Simplify and personalize the process of academic planning to align with students’ future aspirations?  
+
+### Additionally, Career Compass is for:
+- The lifeline for the dreamers, the first-generation trailblazers, the career changers yearning for a fresh start, the lost souls searching for purpose, and those who’ve felt held back by a lack of resources or connections. It’s here to ignite clarity, inspire confidence, and create a future full of opportunity and hope.
 
 ---
 
-## 🔮 Features
-1. **AI-Driven Major Matching**:
-   - Input your university of choice and your passions.
-   - Let our AI, powered by **OpenAI API**, recommend the best-fit major.
+## 🤯 Project Description  
 
-2. **Personalized Career Roadmap**:
-   - View a tailored, year-by-year plan:
-     - Freshman
-     - Sophomore
-     - Junior
-     - Senior
-   - Each roadmap aligns with your major and desired career goals.
+Career Compass is an AI-powered application designed to assist students and individuals in navigating their educational and career journeys.  
 
-3. **Interactive UI**:
-   - Onboarding screens for seamless data entry.
-   - User-friendly design for a smooth experience.
+- **Input your interests, passions, and chosen university**: The app uses these details to provide tailored insights.  
+- **AI-Driven Recommendations**: The AI generates personalized suggestions for the most suitable major.  
+- **Tailored Academic Roadmap**: A detailed, year-by-year roadmap keeps users on track toward their goals.  
 
-4. **Backend-Powered Insights**:
-   - Secure and efficient processing ensures accurate results.
+Career Compass empowers users with actionable insights and a clear sense of direction, ensuring they can make informed decisions about their future.
+
+---
+
+## 💻 Tech Overview  
+
+Career Compass leverages modern technologies to deliver a seamless, user-friendly experience:  
+
+- **Frontend**: React, TypeScript, Tailwind CSS  
+- **Backend**: Python, Flask  
+- **AI Integration**: OpenAI API for generating major recommendations  
+- **Styling**: Tailwind CSS  
+- **Languages**: JavaScript, Python  
+
+---
+## 📽 Demo Presentation Link  
+[**Click here to view the Google Slides presentation**](https://docs.google.com/presentation/d/1q42M2pEUqjVb4gy2WH_aCSWVb7sFteKhVutEYW3N5Bc/edit#slide=id.p)
+ 
+
+---
+
+## 📹 Video Pitch Link  
+[**Click here to watch the video pitch**](#)  
 
 ---
 
@@ -76,7 +89,7 @@ cd MaroonHackathon
 Check out the flowchart below for a quick look at how Career Compass works:
 
 ![Career Compass Flowchart](./Flowchart.svg)
-
+i
 
 The flowchart illustrates the user journey in Career Compass:
 1. **Onboarding Screen**: Users provide their university preference, interests, and passions.
@@ -85,3 +98,16 @@ The flowchart illustrates the user journey in Career Compass:
 4. **Empowerment**: Users can make informed decisions about their future.
 
 Feel free to explore this process and see how Career Compass simplifies your path to success! 🚀
+
+# 🏫 School Name
+Bethune-Cookman University
+
+# 🏷 Team Name
+BCU Maroon
+
+# ✨ Contributors
+- Uchenna Njoku
+- Kisha Mulenga
+- Mulenga Ngulale
+- Essence Wallace
+- Aldridge Kalenga
