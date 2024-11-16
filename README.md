@@ -47,7 +47,7 @@ Career Compass leverages modern technologies to deliver a seamless, user-friendl
 ---
 
 ## 📹 Video Pitch Link  
-[**Click here to watch the video pitch**](#)  
+[**Click here to watch the video pitch**](https://drive.google.com/file/d/1JWzJbBe8WpL87nZlEusv3cfblFIoJZCq/view?usp=drive_link)  
 
 ---
 
