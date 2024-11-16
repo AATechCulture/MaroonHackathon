@@ -100,4 +100,4 @@ BCU Maroon
 - Kisha Mulenga
 - Mulenga Ngulale
 - Essence Wallace
-- cleAldridge Kalenga
+- Aldridge Kalenga
