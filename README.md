@@ -41,7 +41,7 @@ Career Compass leverages modern technologies to deliver a seamless, user-friendl
 
 ---
 ## 📽 Demo Presentation Link  
-[**Click here to view the Google Slides presentation**](https://docs.google.com/presentation/d/1q42M2pEUqjVb4gy2WH_aCSWVb7sFteKhVutEYW3N5Bc/edit#slide=id.g315d09f43e6_1_100)
+[**Click here to view the Google Slides presentation**](https://docs.google.com/presentation/d/1q42M2pEUqjVb4gy2WH_aCSWVb7sFteKhVutEYW3N5Bc/edit#slide=id.p)
  
 
 ---
