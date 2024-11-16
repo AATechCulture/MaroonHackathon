@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, Response
 from flask_cors import CORS 
 import os
 import json
@@ -11,7 +11,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={
+    r"/*": {
+        "origins": ["http://localhost:3000", "http://127.0.0.1:3000"],
+        "methods": ["GET", "POST"],
+        "allow_headers": ["Content-Type"]
+    }
+})
 # Set your OpenAI API key
 openai_api_key = os.getenv('OPENAI_API_KEY') or 'YOUR_OPENAI_API_KEY'
 openai.api_key = openai_api_key
@@ -116,6 +122,53 @@ def recommend_majors():
         'recommended_majors': top_majors
     }), 200
 
+
+@app.route('/learning-resources', methods=['POST'])
+def learning_resources():
+    data = request.get_json()
+    if not data or 'major' not in data:
+        return jsonify({'error': 'Invalid input. Please provide the major.'}), 400
+
+    major_name = data['major']
+    prompt_additional_info = data.get('additional_info', '')
+    
+    # Call OpenAI API
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant that provides learning resources for different majors."},
+                {"role": "user", "content": f"""Please provide learning resources for {major_name} major.
+                    Additional context: {prompt_additional_info if prompt_additional_info else 'None'}
+                    Return the response as a JSON array of 8 objects with this exact structure:
+                    [
+                        {{
+                            "title": "Resource Title",
+                            "type": "video|book|website|course",
+                            "url": "https://example.com"
+                        }}
+                    ]
+                    Include at least 4 high-quality resources with a mix of videos, books, websites, and courses."""}
+            ],
+            max_tokens=1000,
+            temperature=0.7,
+        )
+
+        # Extract and parse the response
+        assistant_reply = response['choices'][0]['message']['content'].strip()
+
+        # Sanitize response by removing backticks if present
+        if assistant_reply.startswith("```") and assistant_reply.endswith("```"):
+            assistant_reply = assistant_reply.strip("```").strip("json").strip()
+
+        resources = json.loads(assistant_reply)  # Parse sanitized JSON response
+        return jsonify(resources), 200
+
+    except json.JSONDecodeError as e:
+        return jsonify({'error': 'Invalid JSON format in API response', 'details': str(e)}), 500
+    except Exception as e:
+        return jsonify({'error': f'Error generating learning resources: {str(e)}'}), 500
+
 @app.route('/additional-resources', methods=['POST'])
 def additional_resources():
     data = request.get_json()
@@ -131,7 +184,7 @@ def additional_resources():
 For the university major '{major_name}', please provide the following information in JSON format only, strictly
 following the structre and order provided below. Do not include any extra text or explanations.
 
-Here is the exaact JSON template you should follow:
+Here is the exact JSON template you should follow:
 
 {{
     "resources_intro": "You can look at some additional resources to learn more:",
@@ -170,7 +223,7 @@ Please ensure:
     # Call OpenAI API
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant that provides information about university majors."},
                 {"role": "user", "content": prompt}

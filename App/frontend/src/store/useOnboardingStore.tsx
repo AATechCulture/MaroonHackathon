@@ -40,6 +40,9 @@ interface MajorRecommendationResponse {
   school_name: string;
 }
 
+// Get majors list once at initialization
+const allMajors = majorsData.majors.map(major => major.name)
+
 const initialState = {
   // UI state
   step: 0,
@@ -52,24 +55,7 @@ const initialState = {
   selectedMajor: null,
   interests: [],
   suggestedMajors: [],
-  // to be updated with actual majors
-  availableMajors: [
-    'Computer Science',
-    'Business Administration',
-    'Psychology',
-    'Engineering',
-    'Biology',
-    'Mathematics',
-    'English Literature',
-    'Chemistry',
-    'Economics',
-    'History',
-    'Physics',
-    'Political Science',
-    'Sociology',
-    'Art and Design',
-    'Music',
-  ]
+  availableMajors: allMajors  // Initialize with the majors list
 }
 
 export const useOnboardingStore = create<OnboardingState>()(
@@ -79,20 +65,18 @@ export const useOnboardingStore = create<OnboardingState>()(
         ...initialState,
 
         // UI state actions
-        setStep: (step) => set({ step }),
+        setStep: (step) => {
+          if (step === 0) {
+            get().resetState(); // Clear everything when returning to first step
+          } else {
+            set({ step });
+          }
+        },
         setLoading: (isLoading) => set({ isLoading }),
         setError: (error) => set({ error }),
 
         // User choice actions
-        setSchool: (school) => {
-            set({ school })
-            get().setAvailableMajors(school)
-        },
-        setAvailableMajors: (schoolName) => {
-            const schoolData = majorsData.majors
-            const majorsList = schoolData.map(major => major.name)
-            set({ availableMajors: majorsList })
-        },
+        setSchool: (school) => set({ school }), // Simplified - no need to call setAvailableMajors
         setKnowsMajor: (knows) => set({ knowsMajor: knows }),
         setSelectedMajor: (major) => set({ selectedMajor: major }),
         toggleInterest: (interest) => set((state) => ({
@@ -107,9 +91,16 @@ export const useOnboardingStore = create<OnboardingState>()(
           set({ isLoading: true, error: null })
           try {
             const { school, interests } = get()
-            const response = await fetch('http://localhost:5000/recommend-majors', {
+            
+            if (!school || interests.length === 0) {
+              throw new Error('School and interests are required')
+            }
+
+            const response = await fetch('http://127.0.0.1:5000/recommend-majors', {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
+              headers: { 
+                'Content-Type': 'application/json'
+              },
               body: JSON.stringify({
                 interests: interests.map(i => i.toLowerCase()),
                 school_name: school
@@ -117,10 +108,15 @@ export const useOnboardingStore = create<OnboardingState>()(
             })
             
             if (!response.ok) {
-              throw new Error('Failed to fetch majors')
+              const errorData = await response.json().catch(() => ({}))
+              throw new Error(errorData.message || 'Failed to fetch majors')
             }
             
             const data: MajorRecommendationResponse = await response.json()
+            if (!data.recommended_majors?.length) {
+              throw new Error('No matching majors found')
+            }
+
             const topThreeMajors = data.recommended_majors.slice(0, 3)
             set({ 
               suggestedMajors: topThreeMajors,
@@ -129,7 +125,8 @@ export const useOnboardingStore = create<OnboardingState>()(
           } catch (error) {
             set({ 
               error: error instanceof Error ? error.message : 'An error occurred',
-              isLoading: false 
+              isLoading: false,
+              suggestedMajors: [] // Reset suggestions on error
             })
             throw error
           }
@@ -151,6 +148,27 @@ export const useOnboardingStore = create<OnboardingState>()(
           // Clear localStorage
           localStorage.removeItem('onboarding-storage')
         },
+
+        // Add this with the other actions
+        setAvailableMajors: (schoolName: string) => {
+          const schoolMajors = majorsData.majors.map(major => major.name)
+          set({ availableMajors: schoolMajors })
+        },
+
+        // Add this initialization effect
+        onMount: (state: OnboardingState) => {
+          // Reset state on page load/refresh
+          window.addEventListener('beforeunload', () => {
+            state.resetState();
+          });
+
+          // Optional: Clean up the event listener
+          return () => {
+            window.removeEventListener('beforeunload', () => {
+              state.resetState();
+            });
+          };
+        },
       }),
       {
         name: 'onboarding-storage',
@@ -158,7 +176,7 @@ export const useOnboardingStore = create<OnboardingState>()(
         partialize: (state) => ({
           // Only persist these specific fields
           school: state.school,
-          selectedMajor: state.selectedMajor,
+          selectedMajor: state.knowsMajor ? state.selectedMajor : null,
           // Don't persist step or other navigation state
         }),
         storage: createJSONStorage(() => localStorage),

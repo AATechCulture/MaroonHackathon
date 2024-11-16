@@ -18,6 +18,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useOnboardingStore } from '@/store/useOnboardingStore'
 import { useEffect } from 'react'
+import { useDashboardStore } from '@/store/dashboardStore'
 
 interface MajorRecommendationResponse {
     recommended_majors: string[];
@@ -42,7 +43,6 @@ export default function Onboarding() {
     setSelectedMajor,
     toggleInterest,
     fetchSuggestedMajors,
-    resetState,
   } = useOnboardingStore()
 
   const interestOptions = [
@@ -60,13 +60,6 @@ export default function Onboarding() {
       console.log('Existing onboarding data found')
     }
   }, [school, interests, knowsMajor])
-
-  useEffect(() => {
-    // Reset the state when the component mounts
-    resetState()
-    // Set initial step
-    setStep(0)
-  }, []) // Empty dependency array means this runs once on mount
 
   const isNextDisabled = () => {
     if (step === 1 && !school) return true
@@ -90,7 +83,7 @@ export default function Onboarding() {
           await fetchSuggestedMajors()
           setStep(4)
         } catch (error) {
-          console.error('Failed to fetch majors')
+          console.error("Error fetching suggested majors"+error)
         }
       }
     } else if (step === 4 && selectedMajor) {
@@ -101,6 +94,11 @@ export default function Onboarding() {
   }
 
   const handlePrevStep = () => setStep(step - 1)
+
+  const handleMajorSelection = (major: string) => {
+    setSelectedMajor(major)
+    useDashboardStore.getState().setSelectedMajor(major)
+  }
 
   const steps = [
     // Welcome Screen
@@ -195,7 +193,7 @@ export default function Onboarding() {
             <Select
               value={selectedMajor || ''}
               onValueChange={(major) => {
-                setSelectedMajor(major)
+                handleMajorSelection(major)
               }}
             >
               <SelectTrigger className="w-full rounded-full">
@@ -243,7 +241,7 @@ export default function Onboarding() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: index * 0.2 }}
                   onClick={() => {
-                    setSelectedMajor(major)
+                    handleMajorSelection(major)
                   }}
                   className="w-full p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5 
                     hover:from-[#313BA8]/10 hover:to-blue-600/10 transition-all duration-200 
@@ -304,7 +302,7 @@ export default function Onboarding() {
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: index * 0.2 }}
                       onClick={() => {
-                        setSelectedMajor(major)
+                        handleMajorSelection(major)
                       }}
                       className="w-full p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5 
                         hover:from-[#313BA8]/10 hover:to-blue-600/10 transition-all duration-200 
@@ -338,8 +336,7 @@ export default function Onboarding() {
           <Button 
             className="mt-6 rounded-full bg-gradient-to-r from-[#313BA8] to-blue-600"
             onClick={() => {
-              // Add navigation to main application or next steps
-              console.log("Proceed to main application")
+              window.location.href = '/dashboard'
             }}
           >
             Start Your Journey
