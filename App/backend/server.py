@@ -67,16 +67,22 @@ def recommend_majors():
     try:
         json_path = os.path.join(os.path.dirname(__file__), 'data.json')
         with open(json_path, 'r') as json_file:
-            file_data = json.load(json_file)
-        universities_data = jsonify(file_data)
+            file_data = json.load(json_file)  # Load JSON data
+        universities_data = file_data  # Use the parsed JSON data directly
     except Exception as e:
         return jsonify({'error': str(e)}), 500
-    print(universities_data["school_name"])
 
-    if not universities_data["school_name"]:
-        return jsonify({'error': 'School not found.'}), 404
+    # Ensure universities_data is a dictionary or list as expected
+    if isinstance(universities_data, dict):
+        if universities_data.get("school_name", "").lower() != school_name.lower():
+            return jsonify({'error': 'School not found.'}), 404
+        majors = universities_data.get("majors", [])
+    else:
+        school = next((uni for uni in universities_data if uni["school_name"].lower() == school_name.lower()), None)
+        if not school:
+            return jsonify({'error': 'School not found.'}), 404
+        majors = school.get("majors", [])
 
-    majors = universities_data["majors"]
     if not majors:
         return jsonify({'error': 'No majors found for the specified school.'}), 404
 
@@ -108,7 +114,6 @@ def recommend_majors():
         'school_name': school_name,
         'recommended_majors': top_majors
     }), 200
-
 @app.route('/about')
 def about():
     return 'This is the About page!'
