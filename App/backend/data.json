@@ -1,0 +1,3277 @@
+{
+  "school_name": "Bethune-Cookman University",
+  "majors": [
+    {
+      "name": "Elementary Education K-6/ESOL/Reading, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "EDT 180 Educator Skills Preparation",
+            "EN 132 College English II",
+            "ES 130 Introduction to Environmental Science",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ED 231 Introduction to Education",
+            "ESE 200 Survey of Exceptional Students",
+            "EDM 380 Professional Seminar",
+            "FC 280 Sophomore Seminar: Leadership",
+            "PHIL 230 Ethics",
+            "PS 236 Developmental Psychology",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "HI 230 Survey of United States History",
+            "PHL 211 Physical Science Lab",
+            "POL 230 American Government",
+            "MAT 275 Mathematics for Teachers",
+            "SS 230 World Regional Geography"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "ED 366 Reading I : Foundations and Application of Reading Instruction",
+            "EDA 352 Teaching Practicum A",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HU 225 Interdisciplinary Humanities"
+          ],
+          "spring": [
+            "ED 320 Inquiry Science",
+            "ED 325 Discovery Social Studies",
+            "ED 367 Reading II : Assessment and Differentiation of Reading Instruction",
+            "ED 340 Assessment and Evaluation",
+            "EDB 352 Teaching Practicum B",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ED 450 Reading Practicum",
+            "ED 437 Inquiry Mathematics",
+            "ED 439 Language Learning",
+            "EDL 350 Children\u00e2\u20ac\u2122s Literature",
+            "EDS 499 Senior Seminar",
+            "EDM 380 Professional Seminar",
+            "TSL 440 Methods of Teaching ESOL"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Exceptional Student Education K-12 ESOL/Reading Endorsed, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "EDT 180 Educator Skills Preparation",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "MAT 275 Mathematics for Teachers",
+            "SC 230 Introduction to Effective Oral Communication",
+            "PHIL 230 Ethics"
+          ],
+          "spring": [
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "ES 130 Introduction to Environmental Science",
+            "ESE 200 Survey of Exceptional Students",
+            "HI 230 Survey of United States History",
+            "PHL 211 Physical Science Lab",
+            "PS 236 Developmental Psychology"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 366 Reading I: Foundations and Application of Reading Instruction",
+            "EDA 352 Teaching Practicum A",
+            "EDM 380 Professional Seminar",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "ESE 310 Theories of Learning Disabilities",
+            "ESE 330 Assessment of Exceptional Students",
+            "ESE 430 Instructional Strategies for Students with Learning Disabilities and Intellectual Disabilities"
+          ],
+          "spring": [
+            "ED 340 Assessment and Evaluation",
+            "ED 367 Reading II: Assessment and Differentiation of Reading Instruction",
+            "EDM 380 Professional Seminar",
+            "ESE 320 Nature of Autism Spectrum Disorders",
+            "ESE 400 Social/Personal Skills of Exceptional Students",
+            "ESE 450 Instructional Strategies for Students with Emotional Behavioral Disorders",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "ED 439 Language Learning",
+            "ED 450 Reading Practicum",
+            "EDB 352 Teaching Practicum B",
+            "EDS 499 Senior Seminar",
+            "EDM 380 Professional Seminar",
+            "TSL 440 Methods of Teaching ESOL"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Biology Education 6-12, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "EDT 180 Educator Skills Preparation",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 136 Analytical Trigonometry",
+            "ML_ 131 Modern Language I"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "ESE 200 Survey of Exceptional Students",
+            "PH 230 Physical Science",
+            "PS 236 Developmental Psychology"
+          ],
+          "spring": [
+            "CH 142 General Chemistry II",
+            "CHL 142 General Chemistry II Laboratory",
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "RELI 110 Understanding Faith",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "BI 240 Principles of Biology III",
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "EDA 352 Teaching Practicum A",
+            "EDM 380 Professional Seminar",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "SS 245 Interdisciplinary Social Science"
+          ],
+          "spring": [
+            "BI 244 Microbiology and Lab",
+            "BI 337 General Ecology",
+            "ED 340 Assessment and Evaluation",
+            "EDM 380 Professional Seminar",
+            "PHIL 230 Ethics",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "BI 351 Plant Physiology",
+            "ED 360 Content-Specific Methods in Secondary Education",
+            "ED 366 Reading I : Foundations and Application of Reading Instruction",
+            "EDS 499 Senior Seminar",
+            "EDB 352 Teaching Practicum B",
+            "EDM 380 Professional Seminar"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Business Education 6-12, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 134 College Algebra",
+            "ML 131 Modern Language I"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "EDT 180 Educator Skills Preparation",
+            "FC 111 Freshman Seminar II",
+            "HU 225 Interdisciplinary Humanities",
+            "MAB 138 Applied Business Calculus",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "AC 231 Principles of Accounting I",
+            "ACL 231 Principles of Accounting I Lab",
+            "BA 110 Introduction to Business",
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "ESE 200 Survey of Exceptional Students",
+            "PS 236 Developmental Psychology"
+          ],
+          "spring": [
+            "BL 230 Leadership and Professional Development",
+            "CIS 138 Introduction to Web Design",
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "ITM 110 Business Computer Applications",
+            "PHIL 230 Ethics"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "BA 234 Business Law I",
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "ED 366 Reading I: Foundations and Application of Reading Instruction",
+            "EDA 352 Teaching Practicum A",
+            "EDM 380 Professional Seminar",
+            "ENT 300 Junior Seminar: Entrepreneurship"
+          ],
+          "spring": [
+            "CIS 240 Dynamic Website Design I",
+            "ED 340 Assessment and Evaluation",
+            "EDB 352 Teaching Practicum B",
+            "EDM 380 Professional Seminar",
+            "ITM 200 Information Systems Essentials",
+            "MK 341 Principles of Marketing",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "BA 232 Macroeconomics",
+            "BA 360 Business Communication",
+            "BAL 360 Business Communication Lab",
+            "ED 360 Content-Specific Methods in Secondary Education",
+            "EDS 499 Senior Seminar",
+            "EDM 380 Professional Seminar",
+            "MG 300 Management & Organizational Behavior"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "English Education 6 - 12/ESOL Endorsement, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "EDT 180 Educator Skills Preparation",
+            "ES 130 Introduction to Environmental Science",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "EN 210 Introduction to Literary Analysis",
+            "ESE 200 Survey of Exceptional Students",
+            "PS 236 Developmental Psychology",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "EN 230 World Literature",
+            "EN 240 Advanced Composition",
+            "EN 270 Introduction to Linguistics",
+            "FC 280 Sophomore Seminar: Leadership",
+            "PHIL 230 Ethics"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "EDA 352 Teaching Practicum A",
+            "EN 250 Technical Communication",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HU 225 Interdisciplinary Humanities"
+          ],
+          "spring": [
+            "EN 235 Film and Pop Culture",
+            "ED 340 Assessment and Evaluation",
+            "ED 360 Content-Specific Methods in Secondary Education",
+            "ED 366 Reading I: Foundations and Application of Reading Instruction",
+            "EDB 352 Teaching Practicum B",
+            "EDM 380 Professional Seminar",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "EDS 499 Senior Seminar",
+            "EDM 380 Professional Seminar",
+            "EN 320 Black American Literature",
+            "EN 340 Creative Writing",
+            "EN 331 English Literature I",
+            "EN 440 Shakespeare"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Music Education K-12, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "FC 110 Freshman Seminar I",
+            "EN 131 College English I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "MUAL 100 Fundamentals of Musicianship Lab",
+            "MUN 111 Class Piano I",
+            "MU_ 210 Applied Music Major",
+            "MU_ 110 Large Ensemble",
+            "MU 290 Performance Seminar"
+          ],
+          "spring": [
+            "FC 111 Freshman Seminar II",
+            "EDT 180 Educator Skills Preparation",
+            "EN 132 College English II",
+            "MAT 132 College Mathematics",
+            "MUN 112 Class Piano II",
+            "MU_ 210 Applied Music Major",
+            "MU_ 110 Large Ensemble",
+            "MU 290 Performance Seminar",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "EDM 380 Professional Seminar",
+            "ESE 200 Survey of Exceptional Students",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MU 213 Vocal Methods",
+            "MU 251 Musicianship Skills I",
+            "MUL 251 Aural Skills I",
+            "MUE 231 Introduction to Music Education",
+            "MU_ 210 Applied Music Major",
+            "MU_ 110 Large Ensemble",
+            "MU 290 Performance Seminar",
+            "PS 236 Developmental Psychology",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "MU 133 Computer Applications in Music",
+            "MU 214 String Methods",
+            "MU 290 Performance Seminar",
+            "MU 252 Musicianship Skills II",
+            "MUL 252 Aural Skills II",
+            "MUE 350 Music Methods in Elementary Education",
+            "MU_ 210 Applied Music Major",
+            "MU_ 110 Large Ensemble",
+            "EDM 380 Professional Seminar",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 352 Contemporary Teaching Methods",
+            "EDA 352 Teaching Practicum A",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MU 238 Introduction to Conducting",
+            "MU 290 Performance Seminar",
+            "MU 313 Percussion Methods",
+            "MU 324 Music History & Culture I",
+            "MU 353 Musicianship Skills III",
+            "MUL 353 Aural Skills III",
+            "MUE 360 Music Methods in Secondary Education",
+            "MU_ 410 Applied Music Major",
+            "MU_ 310 Chamber Ensemble",
+            "EDM 380 Professional Seminar"
+          ],
+          "spring": [
+            "MU 314 Brass Methods",
+            "MU 325 Music History & Culture II",
+            "MU 354 Musicianship Skills IV",
+            "MUL 354 Aural Skills IV",
+            "MU 435 Arranging for Vocal and Instrumental Ensembles",
+            "MU 438 Advanced Conducting Techniques",
+            "MUE 340 Assessment & Evaluation in Music Education",
+            "MU_ 410 Applied Music Major",
+            "MU_ 310 Chamber Ensemble",
+            "MU 290 Performance Seminar",
+            "EDM 380 Professional Seminar"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ED 366 Reading I : Foundations and Application of Reading Instruction",
+            "EDB 352 Teaching Practicum B",
+            "ES 130 Introduction to Environmental Science",
+            "MUS 499 Senior Seminar in Music",
+            "MU 413 Woodwind Methods",
+            "MU_ 410 Applied Music Major",
+            "MU_ 310 Chamber Ensemble",
+            "MUZ 410 Senior Recital",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "MU 290 Performance Seminar",
+            "EDM 380 Professional Seminar"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Physical Education K-12, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML 131 Modern Language I"
+          ],
+          "spring": [
+            "EDT 180 Educator Skills Preparation",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 232 Foundations, Principles, Trends and History",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "ESE 200 Survey of Exceptional Students",
+            "PE 215 Prevention and Care of Athletic Injuries",
+            "PE 301 Theory and Practice of Teaching Individual and Dual Sports",
+            "PS 236 Developmental Psychology"
+          ],
+          "spring": [
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "PE 224 Principles in Coaching and Officiating Sports",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 340 Assessment and Evaluation",
+            "ED 352 Contemporary Teaching Methods",
+            "EDA 352 Teaching Practicum A",
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "EDM 380 Professional Seminar",
+            "PE 303 Theory and Practice of Teaching Dance and Gymnastics",
+            "PE 338 Organization and Administration of Health, Physical Education & Recreation"
+          ],
+          "spring": [
+            "EDB 352 Teaching Practicum B",
+            "EDM 380 Professional Seminar",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PE 302 Theory and Practice of Teaching Team Sports",
+            "PE 325 Teaching Physical Education in the Elementary School",
+            "PE 335 Kinesiology",
+            "PE 341 Motor Development",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ED 360 Content-Specific Methods in Secondary Education",
+            "ED 366 Reading I : Foundations and Application of Reading Instruction",
+            "EDS 499 Senior Seminar",
+            "EDM 380 Professional Seminar",
+            "PE 430 Adaptive and Corrective Physical Education",
+            "PE 435 Physiology of Exercise"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Social Science Education 6 -12, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "EDT 180 Educator Skills Preparation",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ED 231 Introduction to Education",
+            "EDM 380 Professional Seminar",
+            "ESE 200 Survey of Exceptional Students",
+            "HI 131 Survey of World History",
+            "HI 231 United States History to 1865",
+            "SS 220 Physical Geography"
+          ],
+          "spring": [
+            "ED 240 Educational Technology",
+            "EDM 380 Professional Seminar",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HI 232 United States History Since 1865",
+            "HI 340 Florida History",
+            "POL 230 American Government",
+            "PS 236 Developmental Psychology"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ED 352 Contemporary Teaching Methods",
+            "EDA 352 Teaching Practicum A",
+            "ED 354 Classroom Environment",
+            "ED 355 Curriculum Design and Instructional Methods",
+            "EDM 380 Professional Seminar",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HI 353 Modern Asian Studies",
+            "HU 225 Interdisciplinary Humanities"
+          ],
+          "spring": [
+            "ED 340 Assessment and Evaluation",
+            "ED 366 Reading I: Foundations and Application of Reading Instruction",
+            "EDB 352 Teaching Practicum B",
+            "EDM 380 Professional Seminar",
+            "HI 333 Europe I From Mid-18th Century to 1890",
+            "HI 335 History of West Africa",
+            "TSL 370 Principles and Issues in ESOL"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ED 360 Content-Specific Methods in Secondary Education",
+            "EDS 499 Senior Seminar",
+            "ES 130 Introduction to Environmental Science",
+            "HI 132 World History II",
+            "SC 230 Introduction to Effective Oral Communication",
+            "EDM 380 Professional Seminar"
+          ],
+          "spring": [
+            "ED 462 Student Teaching",
+            "EDX 462 Student Teaching Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Psychology, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "SO 131 Introduction to Sociology",
+            "LAG 180 Professional Seminar (Psychology)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "ML_ 131 Modern Language I",
+            "LAG 180 Professional Seminar (Psychology)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "EN 240 Advanced Composition",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 132 Modern Language II",
+            "PS 231 General Psychology",
+            "LAG 280 Professional Seminar (Psychology)"
+          ],
+          "spring": [
+            "CS 132 Computer Applications",
+            "PHIL 230 Ethics",
+            "PS 236 Developmental Psychology",
+            "PS 330 Social Psychology",
+            "SC 230 Introduction to Effective Oral Communication",
+            "LAG 280 Professional Seminar (Psychology)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PS 325 Abnormal Psychology",
+            "PS 328 Educational Psychology",
+            "PS 332 Personality Theories",
+            "PS 338 Research Methods in Psychology",
+            "PS 340 Psychological Measurement",
+            "LAG 380 Professional Seminar (Psychology)"
+          ],
+          "spring": [
+            "PS 352 History and Systems of Psychology",
+            "PS 337 African/Black Psychology",
+            "PS 430 Statistics in Psychological Research",
+            "PS 444 Human Sexuality",
+            "LAG 380 Professional Seminar (Psychology)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "PS 418 Health Psychology",
+            "PS 428 Physiological Psychology",
+            "PS 420 Counseling Psychology",
+            "PS 435 Cognitive Psychology",
+            "PS 441 Psychology of Aging",
+            "LAG 480 Professional Seminar (Psychology)"
+          ],
+          "spring": [
+            "PSA 490 Psychology Field Experience",
+            "PS 499 Senior Thesis Research",
+            "LAG 480 Professional Seminar (Psychology)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sociology, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "SO 131 Introduction to Sociology",
+            "LAF 180 Professional Seminar (Sociology)"
+          ],
+          "spring": [
+            "CS 132 Computer Applications",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "SO 132 Social Problems",
+            "LAF 180 Professional Seminar (Sociology)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SO 231 Introduction to Social Welfare",
+            "SS 239 Statistics for Social Science Research",
+            "LAF 280 Professional Seminar (Sociology)"
+          ],
+          "spring": [
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 132 Modern Language II",
+            "SO 230 Social Psychology",
+            "SO 234 Sociology of World Societies",
+            "SO 235 Marriage and Family",
+            "LAF 280 Professional Seminar (Sociology)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "SO 339 Social Stratification",
+            "SO 232 Sociology of Health and Illness",
+            "LAF 380 Professional Seminar (Sociology)"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PS 231 General Psychology",
+            "SO 250 Gender Studies",
+            "SO 331 Demography",
+            "SO 344 Sociology of Deviant Behavior",
+            "LAF 380 Professional Seminar (Sociology)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "SO 336 Research Methods in Sociology",
+            "SO 436 Sociological Theory",
+            "SO 438 Urban Sociology",
+            "SO 434 Special Topics in Sociology",
+            "SO 439 Race and Ethnicity",
+            "LAF 480 Professional Seminar (Sociology)"
+          ],
+          "spring": [
+            "SO 432 Community Organization",
+            "SO 490 Cooperative Education Field Experience",
+            "SO 499 Senior Seminar",
+            "LAF 480 Professional Seminar (Sociology)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criminal Justice, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "LAA 180 Professional Seminar (Criminal Justice)"
+          ],
+          "spring": [
+            "CJ 131 Introduction to Criminal Justice",
+            "CS 132 Computer Applications",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "RELI 110 Understanding Faith",
+            "LAA 180 Professional Seminar (Criminal Justice)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "One Criminal Justice Elective (200 Level) ",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MLS 131 Elementary Spanish",
+            "SC 230 Introduction to Effective Oral Communication",
+            "One Social Science (SS) or Sociology (SO) Elective ",
+            "LAA 280 Professional Seminar (Criminal Justice)"
+          ],
+          "spring": [
+            "CJ 205 Criminal Law",
+            "CJ 206 Ethics, Crime and Justice",
+            "EN 240 Advanced Composition",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 132 Modern Language II",
+            "PHIL 230 Ethics",
+            "LAA 280 Professional Seminar (Criminal Justice)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CJ 216 Criminal Procedure",
+            "One Criminal Justice (CJ) Elective (300 Level) ",
+            "CJ 327 Corrections",
+            "CJ 360 Victimology",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "3 Hour Free Elective ",
+            "LAA 380 Professional Seminar (Criminal Justice)"
+          ],
+          "spring": [
+            "CJ 337 Law Enforcement",
+            "CJ 389 Criminology",
+            "3 Hour Free Elective ",
+            "SO 439 Race and Ethnicity",
+            "SS 239 Statistics for Social Science Research",
+            "LAA 380 Professional Seminar (Criminal Justice)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CJ Elective (300 Level) ",
+            "CJ Elective (300-400 Level) ",
+            "CJ 461 Juvenile Justice",
+            "CJ 498 Methodologies and Research Writing",
+            "3 Hour Free Elective ",
+            "LAA 480 Professional Seminar (Criminal Justice)"
+          ],
+          "spring": [
+            "CJ Elective (300-400 Level) ",
+            "CJ Elective (300-400 Level) ",
+            "CJ Elective (300-400 Level) ",
+            "CJ 499 Senior Seminar in Criminal Justice",
+            "LAA 480 Professional Seminar (Criminal Justice)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "International Studies/International Affairs, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "POL 130 Introduction to Political Science",
+            "LAD 180 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "INT 131 Introduction to International Studies",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "RELI 110 Understanding Faith",
+            "LAD 180 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BA 231 Microeconomics",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SS 245 Interdisciplinary Social Science",
+            "LAD 280 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ],
+          "spring": [
+            "BA 232 Macroeconomics",
+            "BI 131 General Biology",
+            "HI 335 History of West Africa",
+            "HI 336 History of East Africa",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 210 Human Geography",
+            "LAD 280 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "INT 330 International Politics",
+            "POL 336 Comparative Politics",
+            "POL 436 Political Theory",
+            "LAD 380 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ],
+          "spring": [
+            "HI 353 Modern Asian Studies",
+            "INT 341 International Development",
+            "INT 342 Global Policy Writing",
+            "LAD 380 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HI 333 Europe I From Mid-18th Century to 1890",
+            "HI 431 History of Latin America and the Caribbean",
+            "IB 350 International Business",
+            "INT 352 Foreign Policy of Emerging Nations",
+            "INT 400 Topics, Research and Writing in International Studies",
+            "LAD 480 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ],
+          "spring": [
+            "INT_ 400 Special Topics",
+            "INT 440 International Political Economy",
+            "INT 480 National Security Studies",
+            "INT 499 Senior Seminar",
+            "LAD 480 Professional Seminar (Int\u00e2\u20ac\u2122l Studies)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Political Science, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "LAE 180 Professional Seminar (Poli Sci)"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "POL 130 Introduction to Political Science",
+            "RELI 110 Understanding Faith",
+            "LAE 180 Professional Seminar (Poli Sci)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "POL 230 American Government",
+            "POL 236 State and Local Government",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SS 240 Introduction to Data Processing and Analysis",
+            "LAE 280 Professional Seminar (Poli Sci)"
+          ],
+          "spring": [
+            "HU 225 Interdisciplinary Humanities",
+            "PHIL 230 Ethics",
+            "POL 237 Introduction to Public Administration",
+            "SS 210 Human Geography",
+            "LAE 280 Professional Seminar (Poli Sci)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "POL 335 American Constitutional Law",
+            "POL 336 Comparative Politics",
+            "SS 239 Statistics for Social Science Research",
+            "LAE 380 Professional Seminar (Poli Sci)"
+          ],
+          "spring": [
+            "POL 330 International Politics",
+            "HI 353 Modern Asian Studies",
+            "HI 420 Contemporary African Studies",
+            "LAE 380 Professional Seminar (Poli Sci)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "POL 431 Political Science Research",
+            "POL 436 Political Theory",
+            "LAE 480 Professional Seminar (Poli Sci)"
+          ],
+          "spring": [
+            "POL 499 Political Science Seminar",
+            "POL 490 Cooperative Education Field Experience",
+            "LAE 480 Professional Seminar (Poli Sci)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "English, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "LAB 180 Professional Seminar (English)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "CS 132 Computer Applications",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "LAB 180 Professional Seminar (English)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "EN 210 Introduction to Literary Analysis",
+            "EN 245 Introduction to Poetry",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HI 130 African American History",
+            "PHIL 230 Ethics",
+            "SS 245 Interdisciplinary Social Science",
+            "LAB 280 Professional Seminar (English)"
+          ],
+          "spring": [
+            "EN 230 World Literature",
+            "EN 240 Advanced Composition",
+            "ES 130 Introduction to Environmental Science",
+            "PS 231 General Psychology",
+            "SC 230 Introduction to Effective Oral Communication",
+            "LAB 280 Professional Seminar (English)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "EN 250 Technical Communication",
+            "EN 255 Literature of the African Diaspora",
+            "EN 331 English Literature I",
+            "EN 350 Post-Colonial Literature",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "LAB 380 Professional Seminar (English)"
+          ],
+          "spring": [
+            "EN 235 Film and Pop Culture",
+            "EN 270 Introduction to Linguistics",
+            "EN 332 English Literature II",
+            "EN 334 American Literature",
+            "LAB 380 Professional Seminar (English)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "EN 320 Black American Literature",
+            "EN 340 Creative Writing",
+            "EN 421- 424 Special Topics",
+            "EN 440 Shakespeare",
+            "EN 499 Senior Seminar in English",
+            "LAB 480 Professional Seminar (English)"
+          ],
+          "spring": [
+            "EN 335 Women in Literature",
+            "EN 336 Contemporary Literature",
+            "EN 431- 434 Major Authors",
+            "LAB 480 Professional Seminar (English)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "History, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "HI 131 Survey of World History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "LAC 180 Professional Seminar (History)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 132 World History II",
+            "MAT 132 College Mathematics",
+            "RELI 110 Understanding Faith",
+            "LAC 180 Professional Seminar (History)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HI 231 United States History to 1865",
+            "HI 260 Historiography and Historical Methods",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication",
+            "LAC 280 Professional Seminar (History)"
+          ],
+          "spring": [
+            "Free Elective ",
+            "HI 232 United States History Since 1865",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 132 Modern Language II",
+            "SS 150 Computer Applications for the Social Sciences",
+            "LAC 280 Professional Seminar (History)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "Free Elective ",
+            "HI 233 African-American History to 1865",
+            "HI 353 Modern Asian Studies",
+            "HI Elective (300 - 400 Level)",
+            "POL 230 American Government",
+            "LAC 380 Professional Seminar (History)"
+          ],
+          "spring": [
+            "HI 234 African-American History Since 1865",
+            "HI 340 Florida History",
+            "HI 250 Survey of African History",
+            "HI 337 Topics in History",
+            "HI Elective (200 - 400 Level)",
+            "LAC 380 Professional Seminar (History)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HI 431 History of Latin America and the Caribbean",
+            "HI 480 Historical Research",
+            "HI Elective (300 - 400 Level)",
+            "HI Elective (300 - 400 Level)",
+            "POL 330 International Politics",
+            "LAC 480 Professional Seminar (History)"
+          ],
+          "spring": [
+            "HI 420 Contemporary African Studies",
+            "HI 499 Senior Seminar in History",
+            "HI Elective (300 - 400 Level)",
+            "SS 239 Statistics for Social Science Research",
+            "LAC 480 Professional Seminar (History)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "History, B.A. - Public History Concentration",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "HI 131 Survey of World History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "LAC 180 Professional Seminar (History)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 132 World History II",
+            "MAT 132 College Mathematics",
+            "RELI 110 Understanding Faith",
+            "LAC 180 Professional Seminar (History)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HI 231 United States History to 1865",
+            "MC 151 Intro to Mass Communications",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication",
+            "LAC 280 Professional Seminar (History)"
+          ],
+          "spring": [
+            "BA 110 Introduction to Business",
+            "EN 240 Advanced Composition",
+            "HI 232 United States History Since 1865",
+            "HU 225 Interdisciplinary Humanities",
+            "MC 253 Introduction to Public Relations",
+            "ML_ 132 Modern Language II",
+            "LAC 280 Professional Seminar (History)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ART 210 Art History",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HI 233 African-American History to 1865",
+            "HI 260 Historiography and Historical Methods",
+            "POL 230 American Government",
+            "LAC 380 Professional Seminar (History)"
+          ],
+          "spring": [
+            "HI 234 African-American History Since 1865",
+            "HI 250 Survey of African History",
+            "HI 337 Topics in History",
+            "HM 230 Tourism Principles",
+            "LAC 380 Professional Seminar (History)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HI 341 Oral History",
+            "HI 345 Public History",
+            "HI 480 Historical Research",
+            "MK 341 Principles of Marketing",
+            "LAC 480 Professional Seminar (History)"
+          ],
+          "spring": [
+            "HI 340 Florida History",
+            "HI 440 Museum Studies",
+            "HI 350 Grantsmanship",
+            "HI 499 Senior Seminar in History",
+            "LAC 480 Professional Seminar (History)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Interdisciplinary Studies, B.A. (Double Concentration)",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "SS 150 Computer Applications for the Social Sciences",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "ML_ 131 Modern Language I",
+            "SC 230 Introduction to Effective Oral Communication",
+            "Concentration Elective (200+) "
+          ],
+          "spring": [
+            "ML_ 132 Modern Language II",
+            "Free Elective (200+ Level) ",
+            "Concentration I Elective (200+ Level) ",
+            "Concentration 2 Elective (200+ Level) ",
+            "Concentration 2 Elective (200+ Level) "
+          ]
+        },
+        "junior": {
+          "fall": [
+            "Concentration I Elective (200+ Level) ",
+            "Concentration 2 Elective (300+ Level) ",
+            "Concentration 1 Elective (300+ Level) ",
+            "Concentration 2 Elective (300+ Level) ",
+            "Concentration 1 Elective (300+ Level) "
+          ],
+          "spring": [
+            "Concentration 2 Elective (300+ Level) ",
+            "Concentration 1 Elective (300+ Level) ",
+            "Concentration 2 Elective (300+ Level) ",
+            "Concentration 1 Elective (300+ Level) ",
+            "ENT 300 Junior Seminar: Entrepreneurship"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "Concentration 1 Elective (400+ Level) ",
+            "Concentration 2 Elective (400+ Level) ",
+            "Concentration 1 Elective (400+ Level) ",
+            "Concentration 2 Elective (400+ Level) ",
+            "Concentration 1 Elective (400+ Level) "
+          ],
+          "spring": [
+            "IDS 490 Internship/Field Experience",
+            "IDS 495 Applied Community Service",
+            "IDS 499 Senior Seminar",
+            "Concentration 2 (400+ Level) "
+          ]
+        }
+      }
+    },
+    {
+      "name": "Interdisciplinary Studies, B.A. (Lifelong Learner)",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 131 Modern Language I",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "ML_ 132 Modern Language II",
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective",
+            "Elective (200-400) Elective",
+            "Elective (300-400) Elective"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "Elective (200-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective"
+          ],
+          "spring": [
+            "IDS 499 Senior Seminar",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective",
+            "Elective (300-400) Elective"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Interdisciplinary Studies, B.A. (Triple Concentration)",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "FC 110 Freshman Seminar I",
+            "EN 131 College English I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 131 Modern Language I",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "ML_ 132 Modern Language II"
+          ]
+        },
+        "junior": {
+          "fall": [],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship"
+          ]
+        },
+        "senior": {
+          "fall": [],
+          "spring": [
+            "IDS 490 Internship/Field Experience",
+            "IDS 495 Applied Community Service",
+            "IDS 499 Senior Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Computer Engineering, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ],
+          "spring": [
+            "E 124 Introduction to Engineering",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "MAT 242 Calculus II with Analytic Geometry"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CS 230 Computer Programming I",
+            "CSL 230 Computer Programming I Laboratory",
+            "FC 280 Sophomore Seminar: Leadership",
+            "ML_ 131 Modern Language I",
+            "PH 251 College Physics I",
+            "PHL 251 College Physics I Laboratory",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "CS 231 Computer Programming II",
+            "CSL 231 Computer Programming II Laboratory",
+            "E 230 Introduction to Electric Circuits",
+            "EL 230 Introduction to Electric Circuits Laboratory",
+            "MAT 334 Differential Equations",
+            "ML_ 132 Modern Language II",
+            "PH 252 College Physics II",
+            "PHL 252 College Physics II Laboratory"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CS 333 Data Structures",
+            "CS 335 Discrete Structures",
+            "CS 437 Digital Circuits",
+            "CSL 437 Digital Circuits Laboratory",
+            "E 335 Electronics I",
+            "EL 335 Electronics I Laboratory",
+            "ENT 300 Junior Seminar: Entrepreneurship"
+          ],
+          "spring": [
+            "CS 336 Software Engineering",
+            "CS 438 Computer Architecture",
+            "E 333 Networked Autonomous Robotics",
+            "EL 333 Networked Autonomous Robotics Laboratory",
+            "E 336 Electronics II",
+            "EL 336 Electronics II Laboratory",
+            "MAT 337 Probability and Statistics"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "E 431 VLSI Design I",
+            "EL 431 VLSI Design I Laboratory",
+            "E 438 Programmable Digital Logic Design",
+            "EL 438 Programmable Digital Logic Design Laboratory",
+            "E 437 Microprocessor and Embedded Systems Design",
+            "EL 437 Microprocessor and Embedded Systems Design Lab",
+            "E 497 Senior Design I"
+          ],
+          "spring": [
+            "E 436 Digital Signal Processing",
+            "EL 436 Digital Signal Processing Laboratory",
+            "E 498 Senior Design II",
+            "CS 340 Computer Networks and Communications",
+            "CSL 340 Computer Networks and Communications Laboratory",
+            "CS 433 Operating Systems"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Computer Information Systems, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 134 College Algebra",
+            "HI 130 African American History",
+            "RELI 110 Understanding Faith"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "CIS 135 Introduction to Computer Technology",
+            "CIS 138 Introduction to Web Design",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CIS 210 Introduction to Programming",
+            "CIS 242 Operating Systems",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics"
+          ],
+          "spring": [
+            "CIS 241 Computer Networks",
+            "CS 330 Databases",
+            "ML_ 132 Modern Language II",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CIS 248 Network Administration I",
+            "CIS 300 Systems Analysis and Design",
+            "CIS 333 Database Technologies for Web Applications",
+            "EN 250 Technical Communication",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "ES 130 Introduction to Environmental Science"
+          ],
+          "spring": [
+            "AC 231 Principles of Accounting I",
+            "ACL 231 Principles of Accounting I Lab",
+            "BA 231 Microeconomics",
+            "BA 236 Business Statistics I",
+            "CIS 299 Network Administration II",
+            "CIS 334 Network Operating Systems"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CIS 306 Wireless Networks",
+            "CIS 361 CIS Supervised Internship",
+            "CIS 402 Project Management",
+            "CIS 420 Network Design and Procurement",
+            "CIS 497 Senior Design I"
+          ],
+          "spring": [
+            "ISM/CIS - Elective (300-400 Level) Elective",
+            "CIS 434 Enterprise Architecture and Web Services",
+            "CIS 466 Network Security",
+            "CIS 498 Senior Design II"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Computer Science, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 215 Fundamentals of Scientific Computing",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 242 Calculus II with Analytic Geometry",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CS 230 Computer Programming I",
+            "CSL 230 Computer Programming I Laboratory",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "MAT 335 Linear Algebra",
+            "ML_ 131 Modern Language I",
+            "GEO OR SS 245 Interdisciplinary Social Science"
+          ],
+          "spring": [
+            "CS 231 Computer Programming II",
+            "CSL 231 Computer Programming II Laboratory",
+            "CS 330 Databases",
+            "MAT 337 Probability and Statistics",
+            "ML_ 132 Modern Language II",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CS 332 Computer Organization and Assembly Language",
+            "CS 333 Data Structures",
+            "CS 334 Object Oriented Design",
+            "CS 335 Discrete Structures",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PH 251 College Physics I",
+            "PHL 251 College Physics I Laboratory"
+          ],
+          "spring": [
+            "CS 336 Software Engineering",
+            "CS 340 Computer Networks and Communications",
+            "CSL 340 Computer Networks and Communications Laboratory",
+            "EN 250 Technical Communication",
+            "PH 252 College Physics II",
+            "PHL 252 College Physics II Laboratory"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CS 331 Mobile Applications Development",
+            "CSL 331 Mobile Applications Development Laboratory",
+            "CS 437 Digital Circuits",
+            "CSL 437 Digital Circuits Laboratory",
+            "CS 497 Senior Design I",
+            "E 333 Networked Autonomous Robotics",
+            "EL 333 Networked Autonomous Robotics Laboratory"
+          ],
+          "spring": [
+            "CS 433 Operating Systems",
+            "CS 436 Computability",
+            "CS 438 Computer Architecture",
+            "CS 498 Senior Design II",
+            "CIS 466 Network Security"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Integrated Environmental Science, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness",
+            "SEM 111 Fundamentals of Science I"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "CH 142 General Chemistry II",
+            "CHL 142 General Chemistry II Laboratory",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 136 Analytical Trigonometry"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BI 240 Principles of Biology III",
+            "CS 215 Fundamentals of Scientific Computing",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "RELI 110 Understanding Faith",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "ES 215 Environmetrics",
+            "ES 233 Environmental Ethics",
+            "ES 241 Principles of Environmental Science",
+            "ESL 241 Principles of Environmental Sciences Lab",
+            "ES 246 Environmental Microbiology",
+            "ESL 246 Environmental Microbiology Lab",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "SEM 222 Fundamentals of Science II"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "BI 337 General Ecology",
+            "ES 240 Environmental Chemistry",
+            "ESL 240 Environmental Chemistry Lab",
+            "ES 311 IES Junior Seminar",
+            "ES 338 Research Methods",
+            "PH 241 General Physics I",
+            "PHL 241 General Physics I Laboratory",
+            "PH 251 College Physics I",
+            "PHL 251 College Physics I Laboratory"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "ES 332 Environmental Human Ecology",
+            "ES 345 Freshwater Aquatic Systems",
+            "ESL 345 Freshwater Aquatic Systems Lab",
+            "ES 346 Coastal Systems",
+            "ESL 346 Coastal Systems Lab",
+            "ES 334 Microclimatology",
+            "ESL 334 Microclimatology Lab",
+            "ES 339 Hydrology",
+            "ESL 339 Hydrology Lab",
+            "Free Elective 100/200 Level"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "ES 244 Environmental and Ecological Economics",
+            "ES 330 Environmental Regulations",
+            "ES 335 GIS and Remote Sensing",
+            "ESL 335 GIS & Remote Sensing Lab",
+            "ES 498 IES Senior Seminar I",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "ES 430 Environmental Policy and Risk Management",
+            "ES 450 Ecosystems",
+            "ES 499 IES Senior Seminar II",
+            "CSEM 300-400 Level Elective",
+            "ML_ 132 Modern Language II"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mathematics, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "CH 142 General Chemistry II",
+            "CHL 142 General Chemistry II Laboratory",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 136 Analytical Trigonometry",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "CS 230 Computer Programming I",
+            "CSL 230 Computer Programming I Laboratory",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MAT 241 Calculus I with Analytic Geometry"
+          ],
+          "spring": [
+            "CS 231 Computer Programming II",
+            "CSL 231 Computer Programming II Laboratory",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "MAT 242 Calculus II with Analytic Geometry",
+            "PHIL 230 Ethics",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MAT 353 Foundations of Mathematics",
+            "MAT 331 Calculus III with Analytic Geometry",
+            "MAT 335 Linear Algebra",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "MAT 332 Advanced Calculus",
+            "MAT 334 Differential Equations",
+            "MAT 337 Probability and Statistics",
+            "ML_ 132 Modern Language II"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "MAT 361 Numerical Analysis I",
+            "MAT 431 Abstract Algebra I",
+            "MAT 498 Senior Seminar I"
+          ],
+          "spring": [
+            "MAT 432 Abstract Algebra II",
+            "MAT 434 Real Analysis I",
+            "MAT 437 Complex Variables",
+            "MAT 499 Senior Seminar II"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Biology, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 135 Pre-Calculus",
+            "RELI 110 Understanding Faith",
+            "SEM 111 Fundamentals of Science I"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 136 Analytical Trigonometry",
+            "PE 113 Health and Wellness"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BI 240 Principles of Biology III",
+            "CH 142 General Chemistry II",
+            "CHL 142 General Chemistry II Laboratory",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "BI 213 Research Methods in Biology",
+            "CH 241 Organic Chemistry I and Lab",
+            "ES 215 Environmetrics",
+            "MAT 260 Practical Statistics",
+            "SEM 222 Fundamentals of Science II"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CH 242 Organic Chemistry II and Lab",
+            "CS 215 Fundamentals of Scientific Computing",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PH 241 General Physics I",
+            "PHL 241 General Physics I Laboratory"
+          ],
+          "spring": [
+            "BI 333 Seminar In Biology",
+            "CH 445 Biochemistry I",
+            "PH 242 General Physics II",
+            "PHL 242 General Physics II Laboratory",
+            "PHIL 230 Ethics",
+            "ES 233 Environmental Ethics"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "BI 3/400 Level Elective Elective",
+            "BI 400 Level Elective Elective",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "ML_ 132 Modern Language II",
+            "BI 400 Level Elective Elective",
+            "BI 400 Level Elective Elective",
+            "BI 499 Senior Seminar",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chemistry, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "CH 142 General Chemistry II",
+            "CHL 142 General Chemistry II Laboratory",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 136 Analytical Trigonometry",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CH 241 Organic Chemistry I and Lab",
+            "HI 130 African American History",
+            "HU 225 Interdisciplinary Humanities",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "PHIL 230 Ethics"
+          ],
+          "spring": [
+            "CH 242 Organic Chemistry II and Lab",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MAT 242 Calculus II with Analytic Geometry",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CH 331 Physical Chemistry I",
+            "CH 345 Quantitative Analysis",
+            "PH 251 College Physics I",
+            "PHL 251 College Physics I Laboratory",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "CH 332 Physical Chemistry II",
+            "CH 346 Instrumental Analysis",
+            "PH 252 College Physics II",
+            "PHL 252 College Physics II Laboratory",
+            "ML_ 132 Modern Language II"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CH 435 Inorganic Chemistry",
+            "CH 445 Biochemistry I",
+            "CH 499 Senior Seminar",
+            "Computer Science Elective Computer Science Elective"
+          ],
+          "spring": [
+            "CH 431 Advanced Chemistry Laboratory",
+            "MAT 334 Differential Equations",
+            "CH 446 Biochemistry II"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Chemistry, Biochemistry, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 135 Pre-Calculus",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "CHL 142 General Chemistry II Laboratory",
+            "CH 142 General Chemistry II",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 136 Analytical Trigonometry"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "CH 241 Organic Chemistry I and Lab",
+            "MAT 241 Calculus I with Analytic Geometry",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "RELI 110 Understanding Faith",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "BI 244 Microbiology and Lab",
+            "CH 242 Organic Chemistry II and Lab",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MAT 242 Calculus II with Analytic Geometry"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "BI 340 Molecular Biology",
+            "CH 345 Quantitative Analysis",
+            "CSEM Elective 200 - 300 Level Elective",
+            "PH 251 College Physics I",
+            "PHL 251 College Physics I Laboratory"
+          ],
+          "spring": [
+            "BI 330 Bioinformatics",
+            "CH 346 Instrumental Analysis",
+            "CH 445 Biochemistry I",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PH 252 College Physics II",
+            "PHL 252 College Physics II Laboratory"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CH 499 Senior Seminar",
+            "CSEM Elective 300 - 400 Level Elective",
+            "300 Level Elective 300 - 400 Level Elective",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics"
+          ],
+          "spring": [
+            "BI 450 Cell Biology",
+            "CH 446 Biochemistry II",
+            "CSEM Elective 300 - 400 Level Elective",
+            "ML_ 132 Modern Language II"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aging Studies, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "RELI 110 Understanding Faith",
+            "SO 131 Introduction to Sociology"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "EN 240 Advanced Composition",
+            "FC 280 Sophomore Seminar: Leadership",
+            "GR 231 Introduction to Gerontology",
+            "HU 225 Interdisciplinary Humanities",
+            "ML_ 132 Modern Language II",
+            "PS 231 General Psychology"
+          ],
+          "spring": [
+            "ES 130 Introduction to Environmental Science",
+            "GR 230 Nutrition in Health and Disease",
+            "GR 240 Social and Cultural Aspects to Aging",
+            "PS 236 Developmental Psychology",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PHIL 230 Ethics",
+            "POL 301 Aging and Political Systems",
+            "SS 239 Statistics for Social Science Research",
+            "Free Elective "
+          ],
+          "spring": [
+            "GR 335 Minority Aging",
+            "GR 340 Organization & Management",
+            "GR 350 Seminar in Gerontology",
+            "PS 325 Abnormal Psychology",
+            "PS 330 Social Psychology"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "Free Elective ",
+            "GR 380 End of Life Issues",
+            "GR 390 Psychology of Aging",
+            "PS 441 Psychology of Aging",
+            "RELI 434 Death and Immortality",
+            "GR 492 Gerontology: Research and Planning"
+          ],
+          "spring": [
+            "GR 499 Senior Seminar/Original Thesis",
+            "GR 490 Gerontology Practicum",
+            "GR 420 Seminar in Gerontology II",
+            "Gerontology Elective "
+          ]
+        }
+      }
+    },
+    {
+      "name": "Health & Exercise Science, B.S. - Track 1 - Sport, Fitness & Health",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "MAT 134 College Algebra",
+            "ML_ 132 Modern Language II",
+            "RELI 110 Understanding Faith",
+            "SM 131 Intro to Sports Medicine"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BI 310 Human Anatomy",
+            "PS 231 General Psychology",
+            "Restricted Elective ",
+            "SS 239 Statistics for Social Science Research",
+            "SS 245 Interdisciplinary Social Science"
+          ],
+          "spring": [
+            "BI 311 Human Physiology",
+            "CHS 230 Sports Nutrition",
+            "FC 280 Sophomore Seminar: Leadership",
+            "Free Elective ",
+            "PE 215 Prevention and Care of Athletic Injuries",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HES 370 Program Design in Exercise",
+            "PE 335 Kinesiology",
+            "PE 336 Personal and Community Health",
+            "PE 341 Motor Development",
+            "Restricted Elective "
+          ],
+          "spring": [
+            "HES 330 Facility Management",
+            "HES 375 Theory of Strength & Conditioning",
+            "PE 435 Physiology of Exercise",
+            "PHIL 230 Ethics",
+            "Restricted Elective "
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HES 411 Health Assessment and Appraisal in Exercise Science",
+            "HES 429 Exercise Prescription",
+            "HES 458 Pathophysiology of Exercise Science",
+            "HES 499 Senior Seminar",
+            "Restricted Elective "
+          ],
+          "spring": [
+            "HES 490 HES Internship"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Health & Exercise Science, B.S. - Track 2: Pre-Clinical Health",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 141 Principles of Biology I (For Science Majors)",
+            "BIL 141 Principles of Biology I Lab",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 135 Pre-Calculus",
+            "ML_ 131 Modern Language I"
+          ],
+          "spring": [
+            "BI 142 Principles of Biology II (For Science Majors)",
+            "FC 111 Freshman Seminar II",
+            "EN 132 College English II",
+            "MAT 136 Analytical Trigonometry",
+            "ML_ 132 Modern Language II",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "BI 310 Human Anatomy",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "PS 231 General Psychology",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SS 239 Statistics for Social Science Research"
+          ],
+          "spring": [
+            "BI 311 Human Physiology",
+            "CHS 220 Medical Terminology",
+            "CHS 230 Sports Nutrition",
+            "FC 280 Sophomore Seminar: Leadership",
+            "SM 131 Intro to Sports Medicine"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CH 141 General Chemistry I",
+            "CHL 141 General Chemistry I Laboratory",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HES 370 Program Design in Exercise",
+            "PE 335 Kinesiology",
+            "PE 341 Motor Development"
+          ],
+          "spring": [
+            "HES 330 Facility Management",
+            "HES 375 Theory of Strength & Conditioning",
+            "PHIL 230 Ethics",
+            "PH 241 General Physics I",
+            "PHL 241 General Physics I Laboratory"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HES 411 Health Assessment and Appraisal in Exercise Science",
+            "HES 429 Exercise Prescription",
+            "HES 458 Pathophysiology of Exercise Science",
+            "HES 499 Senior Seminar",
+            "PE 336 Personal and Community Health"
+          ],
+          "spring": [
+            "HES 490 HES Internship"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Nursing B.S.N.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 134 College Algebra",
+            "RELI 110 Understanding Faith"
+          ],
+          "spring": [
+            "BI 237 Anatomy and Physiology",
+            "CH 131 Introductory Chemistry",
+            "EN 132 College English II",
+            "NU 112 Introduction to Nursing",
+            "PS 236 Developmental Psychology"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "NU 279 Nutrition for Nursing",
+            "NU 281 Fundamentals of Nursing",
+            "NU 282 Health Assessment",
+            "PE 113 Health and Wellness"
+          ],
+          "spring": [
+            "BI 244 Microbiology and Lab",
+            "NU 285 Pharmacology",
+            "NU 290 Psychiatric Metal Health Nursing Lecture/Lab",
+            "SC 230 Introduction to Effective Oral Communication"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "NU 303 Adult Health I Lecture/Lab",
+            "BI 307 Pathophysiology",
+            "MAT 260 Practical Statistics",
+            "SS 245 Interdisciplinary Social Science"
+          ],
+          "spring": [
+            "NU 319 Nursing Care of the Pediatric Family",
+            "NU 332 Gerontology Nursing Seminar",
+            "NU 340 Nursing Care of the Childbearing Family",
+            "NU 360 Nursing Research"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "NU 405 Community Health",
+            "NU 449 Comprehensive Review I",
+            "NU 412 Adult Health II Lecture/Lab"
+          ],
+          "spring": [
+            "NU 450 Comprehensive Review II",
+            "NU 434 Leadership and Management Lecture/Lab",
+            "NU 415 Adult Health III"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Hospitality Management, B.S.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "ES 130 Introduction to Environmental Science",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "HM 110 Introduction to the Hospitality Management",
+            "HM 192 Professional Development I",
+            "MAT 132 College Mathematics"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HM 193 Professional Development II",
+            "HM 230 Tourism Principles",
+            "MAT 134 College Algebra",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "AC 231 Principles of Accounting I",
+            "ACL 231 Principles of Accounting I Lab",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HM 247 Hospitality Information Technology",
+            "HM 257 Lodging Operations Management",
+            "HM 292 Professional Development III",
+            "ML_ 131 Modern Language I",
+            "PHIL 230 Ethics"
+          ],
+          "spring": [
+            "HM 190 Internship I",
+            "HM 260 Fundamentals of Food & Beverage",
+            "HM 258 Guest Services Management",
+            "HM 259 Hospitality Human Resources",
+            "HM 293 Professional Development IV",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "ML 132 Modern Language II"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "BA 360 Business Communication",
+            "BAL 360 Business Communication Lab",
+            "HM 320 Hospitality Managerial Accounting",
+            "HM 330 Hospitality Marketing",
+            "HM 392 Professional Development V",
+            "HM 300 HM Elective (300 Level)"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "HM 290 Internship II",
+            "HM 331 Hospitality Legal Environment & Risk Mgmt",
+            "HM 393 Professional Development VI",
+            "HM 337 Revenue Management",
+            "HM 322 Food & Beverage Leadership",
+            "MG 300 Management & Organizational Behavior"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "HM 415 Contemporary Global Issues & Trends",
+            "HM 417 Strategic Leadership & Entrepreneurship",
+            "HM 492 Professional Development VII",
+            "HM 430 Event Management"
+          ],
+          "spring": [
+            "HM 419 Hospitality Financial & Economic Environment",
+            "HM 493 Professional Development VIII",
+            "HM 499 Hospitality Management Capstone"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Communication Studies- General Emphasis, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "TAB 103 A Dance Seminar",
+            "SC 101 Introduction to Human Communication",
+            "PCC 180 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "FC 111 Freshman Seminar II",
+            "EN 132 College English II",
+            "MAT 132 College Mathematics",
+            "BI 131 General Biology",
+            "TA 103 Participation Seminar",
+            "RELI 110 Understanding Faith",
+            "SC 203 Effective Listening",
+            "PCC 180 Professional Seminar (CST&D)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "SC 230 Introduction to Effective Oral Communication",
+            "TA 103 Participation Seminar",
+            "SC 220 Communication Ethics",
+            "ML_ 131 Modern Language I",
+            "SC 231 Introduction to Communication Theory",
+            "FC 280 Sophomore Seminar: Leadership",
+            "PCC 280 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "PHIL 230 Ethics",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "ML_ 132 Modern Language II",
+            "TA 103 Participation Seminar",
+            "SC 232 Rhetorical Criticism",
+            "ES 130 Introduction to Environmental Science",
+            "PCC 280 Professional Seminar (CST&D)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "SC 301 Issues in Multicultural Communication",
+            "SC 302 Organizational Communication",
+            "SC 335 Introduction to Argumentation and Debate",
+            "TA 245 Oral Interpretation of Literature",
+            "TA 103 Participation Seminar",
+            "PCC 380 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "SC 300 Speech Communication Research and Junior Seminar",
+            "SC 304 Introduction to Interpersonal Communication",
+            "TA 103 Participation Seminar",
+            "SC 305 Persuasion Theory and Practice",
+            "SC 403 Communication in Conflict Mediation and Negotiation",
+            "SC 407 Special Topics",
+            "PCC 380 Professional Seminar (CST&D)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "TA 103 Participation Seminar",
+            "SC 401 Small Group Communication",
+            "SC 407 Special Topics",
+            "SC 499 Senior Seminar in Speech Communication",
+            "PCC 480 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "SC 490 Internship",
+            "SC 407 Special Topics",
+            "PCC 480 Professional Seminar (CST&D)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Communication Studies- Theatre-Arts Performance, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "TAB 103 A Dance Seminar",
+            "TA 100 Introduction to Theatre",
+            "PCC 180 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "RELI 110 Understanding Faith",
+            "TA 103 Participation Seminar",
+            "TA 110 Acting I",
+            "PCC 180 Professional Seminar (CST&D)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "FC 280 Sophomore Seminar: Leadership",
+            "ML_ 131 Modern Language I",
+            "SC 230 Introduction to Effective Oral Communication",
+            "TA 102 Elements of Play Production",
+            "TA 103 Participation Seminar",
+            "TA 201 Movement for the Actor",
+            "PCC 280 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "ES 130 Introduction to Environmental Science",
+            "ML_ 132 Modern Language II",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "PHIL 230 Ethics",
+            "TA 103 Participation Seminar",
+            "TA 210 Acting II",
+            "PCC 280 Professional Seminar (CST&D)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "TA 103 Participation Seminar",
+            "TA 220 Theatre Crafts",
+            "TA 245 Oral Interpretation of Literature",
+            "TA 304 Introduction to Design",
+            "TA 307 Voice Production for the Performer",
+            "PCC 380 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "TA 103 Participation Seminar",
+            "TA 300 Theatre Arts Research and Junior Research Seminar",
+            "TA 302 Theater History",
+            "TA 310 Acting III",
+            "TA 320 Narrative Theatre",
+            "TA 330 Performance Repertory",
+            "PCC 380 Professional Seminar (CST&D)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "TA 103 Participation Seminar",
+            "TA 402 Black American Drama",
+            "TA 420 Script Interpretation",
+            "TA 421 Directing",
+            "TA 499 Senior Seminar in Theatre Arts",
+            "PCC 480 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "TA 430 Performance Repertory II",
+            "TA 490 Internship",
+            "PCC 480 Professional Seminar (CST&D)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Communication Studies-Interdisciplinary Studies Emphasis, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "CS 132 Computer Applications",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "PE 113 Health and Wellness",
+            "TAB 103 A Dance Seminar",
+            "SC 101 Introduction to Human Communication",
+            "PCC 180 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "RELI 110 Understanding Faith",
+            "SC 203 Effective Listening",
+            "TA 103 Participation Seminar",
+            "PCC 180 Professional Seminar (CST&D)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "FC 280 Sophomore Seminar: Leadership",
+            "ML_ 131 Modern Language I",
+            "SC 220 Communication Ethics",
+            "SC 231 Introduction to Communication Theory",
+            "SC 230 Introduction to Effective Oral Communication",
+            "TA 103 Participation Seminar",
+            "PCC 280 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "ES 130 Introduction to Environmental Science",
+            "ML_ 132 Modern Language II",
+            "HU 225 Interdisciplinary Humanities",
+            "PHIL 230 Ethics",
+            "SC 232 Rhetorical Criticism",
+            "TA 103 Participation Seminar",
+            "PCC 280 Professional Seminar (CST&D)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "SC 301 Issues in Multicultural Communication",
+            "SC 302 Organizational Communication",
+            "SC 335 Introduction to Argumentation and Debate",
+            "SO 435 Groups and Group Behavior",
+            "TA 245 Oral Interpretation of Literature",
+            "PCC 380 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "SC 300 Speech Communication Research and Junior Seminar",
+            "SC 304 Introduction to Interpersonal Communication",
+            "SC 305 Persuasion Theory and Practice",
+            "SC 403 Communication in Conflict Mediation and Negotiation",
+            "PCC 380 Professional Seminar (CST&D)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "SC 401 Small Group Communication",
+            "SC 499 Senior Seminar in Speech Communication",
+            "PCC 380 Professional Seminar (CST&D)"
+          ],
+          "spring": [
+            "SC 490 Internship",
+            "PCC 480 Professional Seminar (CST&D)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mass Communications-Digital Broadcast Production Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "MC 140 Mass Communications Seminar",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "HI 130 African American History",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "MC 151 Intro to Mass Communications",
+            "ML_ 132 Modern Language II",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "MC 240 Sophomore Practicum",
+            "MC 250 Introduction to Journalism",
+            "MC 252 Intro to Broadcast Production",
+            "SC 230 Introduction to Effective Oral Communication",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MC 251 Desktop Publishing",
+            "MC 253 Introduction to Public Relations",
+            "PHIL 230 Ethics",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "MC 340 Junior Practicum",
+            "MC 352 Radio Production",
+            "MC 354 Television Production",
+            "MC 356 Broadcast Programming",
+            "MC 361 Communications Graphics",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MC 310 Announcing",
+            "MC 350 Mass Media Research",
+            "MC 351 Video Editing",
+            "MC 355 Advanced Television Production",
+            "MC 366 Advanced Radio Production",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "MC 464 New Media Applications",
+            "MC 499 Senior Seminar in Mass Communication",
+            "PCA 480 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "MC 431 Communications Law & Ethics",
+            "MC 470 Special Topics in Mass Communications",
+            "MC 490 Internship",
+            "PCA 480 Professional Seminar (Mass Comm)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mass Communications-Multimedia Journalism Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "MC 140 Mass Communications Seminar",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "MC 151 Intro to Mass Communications",
+            "ML_ 132 Modern Language II",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "MC 240 Sophomore Practicum",
+            "MC 250 Introduction to Journalism",
+            "MC 252 Intro to Broadcast Production",
+            "SC 230 Introduction to Effective Oral Communication",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MC 251 Desktop Publishing",
+            "MC 253 Introduction to Public Relations",
+            "PHIL 230 Ethics",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "MC 320 News Editing",
+            "MC 340 Junior Practicum",
+            "MC 352 Radio Production",
+            "MC 354 Television Production",
+            "MC 358 Writing For The Electronic Media",
+            "MC 370 Reporting Skills",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MC 310 Announcing",
+            "MC 330 Photojournalism",
+            "MC 350 Mass Media Research",
+            "MC 359 Broadcast Journalism",
+            "MC 361 Communications Graphics",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "MC 356 Broadcast Programming",
+            "MC 377 Public Affairs Reporting",
+            "MC 380 Magazine and Feature Writing",
+            "MC 464 New Media Applications",
+            "MC 499 Senior Seminar in Mass Communication",
+            "PCA 480 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "MC 431 Communications Law & Ethics",
+            "MC 490 Internship",
+            "PCA 480 Professional Seminar (Mass Comm)"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mass Communications-Public Relations/Advertising Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "MC 140 Mass Communications Seminar",
+            "ML_ 131 Modern Language I",
+            "PE 113 Health and Wellness",
+            "RELI 110 Understanding Faith",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "MC 151 Intro to Mass Communications",
+            "ML_ 132 Modern Language II",
+            "PCA 180 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "MC 240 Sophomore Practicum",
+            "MC 250 Introduction to Journalism",
+            "MC 252 Intro to Broadcast Production",
+            "SC 230 Introduction to Effective Oral Communication",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "FC 280 Sophomore Seminar: Leadership",
+            " Credit Free Elective",
+            "MC 251 Desktop Publishing",
+            "MC 253 Introduction to Public Relations",
+            "PHIL 230 Ethics",
+            "PCA 280 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "MC 340 Junior Practicum",
+            "MC 346 Integrated Marketing Communications",
+            "MC 352 Radio Production",
+            "MC 354 Television Production",
+            "MC 361 Communications Graphics",
+            "MC 363 Public Relations Practices",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MC 310 Announcing",
+            "MC 350 Mass Media Research",
+            "MC 391 Principles of Advertising",
+            "MC 491 Media Sales",
+            "PCA 380 Professional Seminar (Mass Comm)"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "MC 455 Advertising Copywriting",
+            "MC 458 Advertising and Public Relations Campaigns",
+            "MC 464 New Media Applications",
+            "MC 499 Senior Seminar in Mass Communication",
+            " 300-400 Level Elective",
+            "PCA 480 Professional Seminar (Mass Comm)"
+          ],
+          "spring": [
+            "MC 431 Communications Law & Ethics",
+            "MC 470 Special Topics in Mass Communications",
+            "MC 490 Internship"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Music Recording Technology, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "HI 130 African American History",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "MU_ 110 Large Ensemble",
+            "MU_ 210 Applied Music Major",
+            "MUN 111 Class Piano I",
+            "MUAL 100 Fundamentals of Musicianship Lab",
+            "PE 113 Health and Wellness",
+            "MU 290 Performance Seminar"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "MU 135 Introduction to Songwriting",
+            "MU_ 110 Large Ensemble",
+            "MU_ 210 Applied Music Major",
+            "MUN 112 Class Piano II",
+            "RELI 110 Understanding Faith",
+            "MU 290 Performance Seminar"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "MU 233 Advanced Computer Applications",
+            "MU 243 Audio Fundamentals I",
+            "MU 251 Musicianship Skills I",
+            "MUL 251 Aural Skills I",
+            "MU_ 110 Large Ensemble",
+            "MU_ 210 Applied Music Major",
+            "SC 230 Introduction to Effective Oral Communication"
+          ],
+          "spring": [
+            "BI 131 General Biology",
+            "MU 237 Music Industry",
+            "MU 238 Introduction to Conducting",
+            "MU 244 Audio Fundamentals II",
+            "MU 252 Musicianship Skills II",
+            "MUL 252 Aural Skills II",
+            "MU_ 110 Large Ensemble",
+            "MU_ 210 Applied Music Major",
+            "MU 290 Performance Seminar"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "MU 324 Music History & Culture I",
+            "MU 343 Music Production I",
+            "MU 353 Musicianship Skills III",
+            "MUL 353 Aural Skills III",
+            "MU_ 310 Chamber Ensemble",
+            "MU_ 410 Applied Music Major",
+            "PHIL 230 Ethics",
+            "SS 245 Interdisciplinary Social Science",
+            "MU 290 Performance Seminar"
+          ],
+          "spring": [
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "MU 325 Music History & Culture II",
+            "MU 344 Music Production II",
+            "MU 354 Musicianship Skills IV",
+            "MUL 354 Aural Skills IV",
+            "MU_ 310 Chamber Ensemble",
+            "MU_ 410 Applied Music Major",
+            "MU 290 Performance Seminar"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "MU 498 Production Portfolio",
+            "MU_ 310 Chamber Ensemble",
+            "MU_ 410 Applied Music Major",
+            "MUS 499 Senior Seminar in Music",
+            "MU 290 Performance Seminar"
+          ],
+          "spring": [
+            "MU 498 Production Portfolio",
+            "MUB 464 Music Internship"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Music, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "MUAL 100 Fundamentals of Musicianship Lab"
+          ],
+          "spring": [
+            "MUN 111 Class Piano I"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Religion, Philosophy, and Christian Ministry - Christian Ministry Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "RELI 110 Understanding Faith",
+            "SOR 180 Professional Seminar"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "SOR 180 Professional Seminar"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "RELI 205 Intro to African Traditional Religion and Culture",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SOR 280 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 220 Spiritual Formation",
+            "CMIN 260 Introduction to Christian Theology",
+            "PHIL 235 Introduction to Philosophy",
+            "RELI 241 Religions of the World",
+            "RELI 250 African American Religious History",
+            "SOR 280 Professional Seminar"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CMIN 333 Biblical Prophets and Social Justice",
+            "CMIN 343 Christian Doctrines",
+            "CMIN 344 Liberation Theologies",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "RPCM 390 Field Experience I",
+            "SOR 380 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 350 Preaching in the African-American Tradition",
+            "CMIN 361 Pastoral Care",
+            "RELI 365 Theories of Justice",
+            "RPCM 391 Field Experience II",
+            "SOR 380 Professional Seminar"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "CMIN 420 Theological Interpretation of the Old Testament",
+            "CMIN 431 History of Christianity I",
+            "CMIN 445 Homiletics",
+            "CMIN 460 Christian Ethics",
+            "RPCM 498 Senior Research",
+            "SOR 480 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 410 Religious and Social Thought of Howard Thurman",
+            "CMIN 425 Theological Interpretation of the New Testament",
+            "CMIN 432 History of Christianity II",
+            "RPCM 499 Senior Seminar in Religion and Philosophy",
+            "SOR 480 Professional Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Religion, Philosophy, and Christian Ministry - Philosophy Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "RELI 110 Understanding Faith",
+            "SOR 180 Professional Seminar"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "SOR 180 Professional Seminar"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "EN 240 Advanced Composition",
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "SS 245 Interdisciplinary Social Science",
+            "RELI 205 Intro to African Traditional Religion and Culture",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SOR 280 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 260 Introduction to Christian Theology",
+            "PHIL 235 Introduction to Philosophy",
+            "RELI 241 Religions of the World",
+            "RELI 250 African American Religious History",
+            "SOR 280 Professional Seminar"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CMIN 333 Biblical Prophets and Social Justice",
+            "CMIN 344 Liberation Theologies",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "PHIL 331 History of Ancient to Medieval Philosophy",
+            "RPCM 390 Field Experience I",
+            "SOR 380 Professional Seminar"
+          ],
+          "spring": [
+            "PHIL 239 Logic",
+            "PHIL 332 History of Modern Philosophy",
+            "RELI 365 Theories of Justice",
+            "RPCM 391 Field Experience II",
+            "SOR 380 Professional Seminar"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "PHIL 400 Africana Philosophy",
+            "PHIL 421 Nineteenth Century Philosophy",
+            "PHIL 425 Contemporary Philosophy",
+            "PHIL 436 Philosophy of Religion",
+            "RPCM 498 Senior Research",
+            "SOR 480 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 410 Religious and Social Thought of Howard Thurman",
+            "PHIL 430 Human Nature and Knowledge",
+            "RPCM 499 Senior Seminar in Religion and Philosophy",
+            "SOR 480 Professional Seminar"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Religion, Philosophy, and Christian Ministry - Religious Studies Concentration, B.A.",
+      "curriculum": {
+        "freshman": {
+          "fall": [
+            "BI 131 General Biology",
+            "EN 131 College English I",
+            "FC 110 Freshman Seminar I",
+            "MAT 131 Liberal Arts Mathematics",
+            "ML_ 131 Modern Language I",
+            "RELI 110 Understanding Faith",
+            "SOR 180 Professional Seminar"
+          ],
+          "spring": [
+            "EN 132 College English II",
+            "FC 111 Freshman Seminar II",
+            "HI 130 African American History",
+            "MAT 132 College Mathematics",
+            "ML_ 132 Modern Language II",
+            "PE 113 Health and Wellness",
+            "PHIL 230 Ethics",
+            "SOR 180 Professional Seminar"
+          ]
+        },
+        "sophomore": {
+          "fall": [
+            "ES 130 Introduction to Environmental Science",
+            "FC 280 Sophomore Seminar: Leadership",
+            "HU 225 Interdisciplinary Humanities",
+            "RELI 205 Intro to African Traditional Religion and Culture",
+            "SC 230 Introduction to Effective Oral Communication",
+            "SOR 280 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 260 Introduction to Christian Theology",
+            "PHIL 235 Introduction to Philosophy",
+            "RELI 210 Religion and Popular Culture",
+            "RELI 241 Religions of the World",
+            "RELI 250 African American Religious History",
+            "SOR 280 Professional Seminar"
+          ]
+        },
+        "junior": {
+          "fall": [
+            "CMIN 333 Biblical Prophets and Social Justice",
+            "CMIN 344 Liberation Theologies",
+            "ENT 300 Junior Seminar: Entrepreneurship",
+            "RELI 340 Religion in America",
+            "RELI 370 Theories and Methods for Religious Studies",
+            "RPCM 390 Field Experience I",
+            "SOR 380 Professional Seminar"
+          ],
+          "spring": [
+            "RELI 321 Hermeneutics",
+            "RELI 350 Comparative Religious Ethics",
+            "RELI 361 World Scriptures",
+            "RELI 365 Theories of Justice",
+            "RPCM 391 Field Experience II",
+            "SOR 380 Professional Seminar"
+          ]
+        },
+        "senior": {
+          "fall": [
+            "PHIL 436 Philosophy of Religion",
+            "RELI 425 Islam",
+            "RPCM 498 Senior Research",
+            "SOR 480 Professional Seminar"
+          ],
+          "spring": [
+            "CMIN 410 Religious and Social Thought of Howard Thurman",
+            "RPCM 499 Senior Seminar in Religion and Philosophy",
+            "SOR 480 Professional Seminar"
+          ]
+        }
+      }
+    }
+  ]
+}
