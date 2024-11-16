@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/server.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "frontend/.next/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "backend/server.py"
+      },
+      {
+        "src": "/_next/static/(.*)",
+        "dest": "frontend/.next/static/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/frontend/.next/$1"
+      }
+    ]
+  }
+  

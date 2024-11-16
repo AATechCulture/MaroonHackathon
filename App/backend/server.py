@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, Response
+from flask import Flask, request, send_from_directory,jsonify, Response
 from flask_cors import CORS 
 import os
 import json
@@ -10,7 +10,8 @@ from collections import OrderedDict
 from dotenv import load_dotenv
 load_dotenv()
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='../frontend/.next')
+
 CORS(app, resources={
     r"/*": {
         "origins": ["http://localhost:3000", "http://127.0.0.1:3000"],
@@ -22,7 +23,20 @@ CORS(app, resources={
 openai_api_key = os.getenv('OPENAI_API_KEY') or 'YOUR_OPENAI_API_KEY'
 openai.api_key = openai_api_key
 
-@app.route('/')
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve_next_app(path):
+    static_folder = os.path.join(app.root_path, '../frontend/.next')
+
+    # Serve static files if they exist
+    static_file = os.path.join(static_folder, path)
+    if path and os.path.exists(static_file):
+        return send_from_directory(static_folder, path)
+
+    # Fallback to serving the main Next.js app
+    return send_from_directory(static_folder, 'static/index.html')
+
+@app.route('/home')
 def home():
     return 'Hello, Flask!'
 
