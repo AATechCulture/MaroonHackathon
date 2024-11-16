@@ -40,6 +40,15 @@ Career Compass leverages modern technologies to deliver a seamless, user-friendl
 - **Languages**: JavaScript, Python  
 
 ---
+## 📽 Demo Presentation Link  
+[**Click here to view the presentation slides**](#)  
+
+---
+
+## 📹 Video Pitch Link  
+[**Click here to watch the video pitch**](#)  
+
+---
 
 ## 🛠 Getting Started
 Ready to get started? Follow these steps to set up Career Compass:
