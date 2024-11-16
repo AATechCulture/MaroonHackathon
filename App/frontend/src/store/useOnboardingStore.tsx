@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { createJSONStorage, devtools, persist } from 'zustand/middleware'
+import majorsData from '../bethune-cookman_university_transformed.json'
 
 interface OnboardingState {
   // Current UI state
@@ -31,6 +32,12 @@ interface OnboardingState {
   // API and state management
   fetchSuggestedMajors: () => Promise<void>
   resetState: () => void
+  setAvailableMajors: (schoolName: string) => void
+}
+
+interface MajorRecommendationResponse {
+  recommended_majors: string[];
+  school_name: string;
 }
 
 const initialState = {
@@ -77,7 +84,15 @@ export const useOnboardingStore = create<OnboardingState>()(
         setError: (error) => set({ error }),
 
         // User choice actions
-        setSchool: (school) => set({ school }),
+        setSchool: (school) => {
+            set({ school })
+            get().setAvailableMajors(school)
+        },
+        setAvailableMajors: (schoolName) => {
+            const schoolData = majorsData.majors
+            const majorsList = schoolData.map(major => major.name)
+            set({ availableMajors: majorsList })
+        },
         setKnowsMajor: (knows) => set({ knowsMajor: knows }),
         setSelectedMajor: (major) => set({ selectedMajor: major }),
         toggleInterest: (interest) => set((state) => ({
@@ -92,18 +107,25 @@ export const useOnboardingStore = create<OnboardingState>()(
           set({ isLoading: true, error: null })
           try {
             const { school, interests } = get()
-            const response = await fetch('/api/suggest-majors', {
+            const response = await fetch('http://localhost:5000/recommend-majors', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ school, interests }),
+              body: JSON.stringify({
+                interests: interests.map(i => i.toLowerCase()),
+                school_name: school
+              })
             })
             
             if (!response.ok) {
               throw new Error('Failed to fetch majors')
             }
             
-            const majors = await response.json()
-            set({ suggestedMajors: majors, isLoading: false })
+            const data: MajorRecommendationResponse = await response.json()
+            const topThreeMajors = data.recommended_majors.slice(0, 3)
+            set({ 
+              suggestedMajors: topThreeMajors,
+              isLoading: false 
+            })
           } catch (error) {
             set({ 
               error: error instanceof Error ? error.message : 'An error occurred',
@@ -114,31 +136,33 @@ export const useOnboardingStore = create<OnboardingState>()(
         },
 
         // Reset action
-        resetState: () => set({...initialState})
+        resetState: () => {
+          set({
+            step: 0,
+            isLoading: false,
+            error: null,
+            school: '',
+            knowsMajor: null,
+            selectedMajor: null,
+            interests: [],
+            suggestedMajors: [],
+            availableMajors: initialState.availableMajors
+          })
+          // Clear localStorage
+          localStorage.removeItem('onboarding-storage')
+        },
       }),
       {
         name: 'onboarding-storage',
-        // Persist everything except loading and error states
-        partialize: (state) => Object.fromEntries(
-          Object.entries(state).filter(([key]) => 
-            !['isLoading', 'error'].includes(key)
-          )
-        ),
-        // Storage configuration
+        // Only persist essential data
+        partialize: (state) => ({
+          // Only persist these specific fields
+          school: state.school,
+          selectedMajor: state.selectedMajor,
+          // Don't persist step or other navigation state
+        }),
         storage: createJSONStorage(() => localStorage),
-        // Version the storage in case you need to migrate data later
         version: 1,
-        // Optional: Migrate old stored data to new format
-        migrate: (persistedState: any, version: number) => {
-          if (version === 0) {
-            // Handle migration from version 0 to 1
-            return {
-              ...persistedState,
-              // Add any new fields with default values
-            }
-          }
-          return persistedState as OnboardingState
-        }
       }
     ),
     { name: 'OnboardingStore' }

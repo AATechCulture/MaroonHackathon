@@ -19,6 +19,12 @@ import Link from 'next/link'
 import { useOnboardingStore } from '@/store/useOnboardingStore'
 import { useEffect } from 'react'
 
+interface MajorRecommendationResponse {
+    recommended_majors: string[];
+    school_name: string;
+    
+}  
+
 export default function Onboarding() {
   const {
     step,
@@ -36,13 +42,18 @@ export default function Onboarding() {
     setSelectedMajor,
     toggleInterest,
     fetchSuggestedMajors,
+    resetState,
   } = useOnboardingStore()
 
   const interestOptions = [
-    'Technology', 'Science', 'Arts', 'Humanities', 'Business',
-    'Health', 'Engineering', 'Social Sciences', 'Education'
-  ]
-
+    "Artificial Intelligence", "Cybersecurity", "Robotics", "Data Science", "Web Development",
+    "Blockchain Technology", "Environmental Science", "Renewable Energy", "Biotechnology", "Genetic Engineering",
+    "Psychology", "Sociology", "Political Science", "International Relations", "Philosophy",
+    "History", "Music Production", "Graphic Design", "Film Production", "Medicine",
+    "Nursing", "Public Health", "Sports Science", "Entrepreneurship", "Marketing Analytics",
+    "Financial Technology (FinTech)", "Mechanical Engineering", "Aerospace Engineering", "Game Development", "Culinary Arts"
+  ];
+  
   // Check for existing onboarding data on mount
   useEffect(() => {
     if (school || interests.length > 0 || knowsMajor !== null) {
@@ -50,11 +61,19 @@ export default function Onboarding() {
     }
   }, [school, interests, knowsMajor])
 
+  useEffect(() => {
+    // Reset the state when the component mounts
+    resetState()
+    // Set initial step
+    setStep(0)
+  }, []) // Empty dependency array means this runs once on mount
+
   const isNextDisabled = () => {
     if (step === 1 && !school) return true
     if (step === 2 && knowsMajor === null) return true
     if (step === 3 && knowsMajor && !selectedMajor) return true
     if (step === 3 && !knowsMajor && interests.length === 0) return true
+    if (step === 4 && !selectedMajor) return true
     return false
   }
 
@@ -62,23 +81,20 @@ export default function Onboarding() {
     if (isNextDisabled()) return
 
     if (step === 2) {
-      // After major knowledge check
-      if (knowsMajor === true) {
-        setStep(3) // Go to major selection
-      } else {
-        setStep(3) // Go to interests
-      }
+      setStep(3)
     } else if (step === 3) {
-      if (knowsMajor === true) {
-        setStep(5) // Known major: go straight to results
+      if (knowsMajor) {
+        setStep(4)
       } else {
         try {
           await fetchSuggestedMajors()
-          setStep(4) // Unknown major: fetch suggestions and go to results
+          setStep(4)
         } catch (error) {
           console.error('Failed to fetch majors')
         }
       }
+    } else if (step === 4 && selectedMajor) {
+      setStep(5)
     } else {
       setStep(step + 1)
     }
@@ -88,6 +104,7 @@ export default function Onboarding() {
 
   const steps = [
     // Welcome Screen
+    // Step 1
     <motion.div
       key="welcome"
       initial={{ opacity: 0, y: 20 }}
@@ -112,6 +129,7 @@ export default function Onboarding() {
     </motion.div>,
 
     // School Selection
+ // Step 2
     <motion.div
       key="school"
       initial={{ opacity: 0, x: 50 }}
@@ -134,6 +152,7 @@ export default function Onboarding() {
     </motion.div>,
 
     // Major Knowledge Check
+    // Step 3
     <motion.div
       key="major-check"
       initial={{ opacity: 0, scale: 0.95 }}
@@ -159,67 +178,85 @@ export default function Onboarding() {
       </RadioGroup>
     </motion.div>,
 
-    // Conditional Step: Either Major Selection or Interest Selection
-    knowsMajor ? (
-      // Major Selection
-      <motion.div
-        key="major-selection"
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}
-        className="space-y-6"
-      >
-        <BookOpen className="w-16 h-16 mx-auto mb-4 text-[#313BA8]" />
-        <h2 className="text-2xl font-semibold text-center">Select Your Major</h2>
-        <div className="max-w-sm mx-auto">
-          <Select
-            value={selectedMajor || ''}
-            onValueChange={setSelectedMajor}
-          >
-            <SelectTrigger className="w-full rounded-full">
-              <SelectValue placeholder="Choose your major" />
-            </SelectTrigger>
-            <SelectContent>
-              {availableMajors.map((major) => (
-                <SelectItem key={major} value={major}>
-                  {major}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-      </motion.div>
-    ) : (
-      // Interest Selection
-      <motion.div
-        key="interests"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -20 }}
-        className="space-y-6"
-      >
-        <Sparkles className="w-16 h-16 mx-auto mb-4 text-[#313BA8]" />
-        <h2 className="text-2xl font-semibold text-center">What interests you?</h2>
-        <p className="text-center text-gray-600">Select all that spark your curiosity</p>
-        <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
-          {interestOptions.map((interest) => (
-            <motion.div
-              key={interest}
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.98 }}
-              className="flex items-center space-x-2 p-4 rounded-xl border-2 border-gray-100 hover:border-[#313BA8] transition-colors"
+    // Step 4: Combined Major Selection/Interest Selection
+    <motion.div
+      key="major-selection"
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.95 }}
+      className="space-y-6"
+    >
+      {knowsMajor ? (
+        // Known Major Selection UI
+        <>
+          <BookOpen className="w-16 h-16 mx-auto mb-4 text-[#313BA8]" />
+          <h2 className="text-2xl font-semibold text-center">Select Your Major</h2>
+          <div className="max-w-sm mx-auto">
+            <Select
+              value={selectedMajor || ''}
+              onValueChange={(major) => {
+                setSelectedMajor(major)
+              }}
             >
-              <Checkbox
-                id={interest}
-                checked={interests.includes(interest)}
-                onCheckedChange={() => toggleInterest(interest)}
-              />
-              <Label htmlFor={interest} className="flex-grow cursor-pointer">{interest}</Label>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
-    ),
+              <SelectTrigger className="w-full rounded-full">
+                <SelectValue placeholder="Choose your major" />
+              </SelectTrigger>
+              <SelectContent>
+                {availableMajors.map((major) => (
+                  <SelectItem key={major} value={major}>
+                    {major}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          </div>
+        </>
+      ) : (
+        // Interest Selection UI for unknown major
+        <>
+          <Sparkles className="w-16 h-16 mx-auto mb-4 text-[#313BA8]" />
+          <h2 className="text-2xl font-semibold text-center">What interests you?</h2>
+          <p className="text-center text-gray-600">Select all that spark your curiosity</p>
+          <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
+            {interestOptions.map((interest) => (
+              <motion.div
+                key={interest}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="flex items-center space-x-2 p-4 rounded-xl border-2 border-gray-100 hover:border-[#313BA8] transition-colors"
+              >
+                <Checkbox
+                  id={interest}
+                  checked={interests.includes(interest)}
+                  onCheckedChange={() => toggleInterest(interest)}
+                />
+                <Label htmlFor={interest} className="flex-grow cursor-pointer">{interest}</Label>
+              </motion.div>
+            ))}
+          </div>
+          {!knowsMajor && suggestedMajors.length > 0 && (
+            <div className="space-y-4 my-8">
+              {suggestedMajors.map((major, index) => (
+                <motion.button
+                  key={major}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.2 }}
+                  onClick={() => {
+                    setSelectedMajor(major)
+                  }}
+                  className="w-full p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5 
+                    hover:from-[#313BA8]/10 hover:to-blue-600/10 transition-all duration-200 
+                    transform hover:scale-105"
+                >
+                  <h3 className="text-xl font-medium text-[#313BA8]">{major}</h3>
+                </motion.button>
+              ))}
+            </div>
+          )}
+        </>
+      )}
+    </motion.div>,
 
     // Results Display
     <motion.div
@@ -236,52 +273,79 @@ export default function Onboarding() {
         height={45}
         className="mx-auto mb-6"
       />
-      <h2 className="text-2xl font-semibold">
-        {knowsMajor 
-          ? "Great choice! Let's explore your major:"
-          : "Here are your recommended majors:"}
-      </h2>
-      {isLoading ? (
-        <div className="flex justify-center items-center h-32">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#313BA8]"></div>
-        </div>
-      ) : error ? (
-        <div className="text-red-500 p-4">
-          {error}
-          <Button onClick={() => handleNextStep()} className="mt-4">
-            Try Again
-          </Button>
-        </div>
-      ) : (
-        <div className="space-y-4 my-8">
-          {knowsMajor ? (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5"
-            >
-              <h3 className="text-xl font-medium text-[#313BA8]">{selectedMajor}</h3>
-            </motion.div>
+      
+      {!selectedMajor ? (
+        // Initial results display with clickable options
+        <>
+          <h2 className="text-2xl font-semibold">
+            {knowsMajor 
+              ? "Great choice! Let's explore your major:"
+              : "Here are your recommended majors:"}
+          </h2>
+          {isLoading ? (
+            <div className="flex justify-center items-center h-32">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#313BA8]"></div>
+            </div>
+          ) : error ? (
+            <div className="text-red-500 p-4">
+              {error}
+              <Button onClick={() => handleNextStep()} className="mt-4">
+                Try Again
+              </Button>
+            </div>
           ) : (
-            suggestedMajors.map((major, index) => (
-              <motion.div
-                key={major}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5"
-              >
-                <h3 className="text-xl font-medium text-[#313BA8]">{major}</h3>
-              </motion.div>
-            ))
+            <>
+              {!knowsMajor && suggestedMajors.length > 0 && (
+                <div className="space-y-4 my-8">
+                  {suggestedMajors.map((major, index) => (
+                    <motion.button
+                      key={major}
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: index * 0.2 }}
+                      onClick={() => {
+                        setSelectedMajor(major)
+                      }}
+                      className="w-full p-4 rounded-xl bg-gradient-to-r from-[#313BA8]/5 to-blue-600/5 
+                        hover:from-[#313BA8]/10 hover:to-blue-600/10 transition-all duration-200 
+                        transform hover:scale-105"
+                    >
+                      <h3 className="text-xl font-medium text-[#313BA8]">{major}</h3>
+                    </motion.button>
+                  ))}
+                </div>
+              )}
+            </>
           )}
-        </div>
+        </>
+      ) : (
+        // Final confirmation screen after major selection
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="space-y-6"
+        >
+          <Sparkles className="w-16 h-16 mx-auto mb-4 text-[#313BA8]" />
+          <h2 className="text-3xl font-bold text-[#313BA8]">You're All Set!</h2>
+          <div className="bg-gradient-to-r from-[#313BA8]/10 to-blue-600/10 p-6 rounded-xl my-6">
+            <p className="text-xl font-semibold">Your Selected Major:</p>
+            <p className="text-2xl text-[#313BA8] font-bold mt-2">{selectedMajor}</p>
+          </div>
+          <p className="text-lg text-gray-600">
+            Get ready to explore your academic journey! We'll help you navigate your path
+            in {selectedMajor} with personalized resources and guidance.
+          </p>
+          <Button 
+            className="mt-6 rounded-full bg-gradient-to-r from-[#313BA8] to-blue-600"
+            onClick={() => {
+              // Add navigation to main application or next steps
+              console.log("Proceed to main application")
+            }}
+          >
+            Start Your Journey
+          </Button>
+        </motion.div>
       )}
-      <p className="text-lg text-gray-600">
-        {knowsMajor
-          ? "Let's explore your chosen path and plan your academic journey."
-          : "Great start! Let's explore these paths in detail and plan your academic journey."}
-      </p>
     </motion.div>
   ]
 

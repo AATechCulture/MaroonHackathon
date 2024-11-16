@@ -8,12 +8,8 @@ import DataFetcher from './Components/DataFetcher'
 const App = () => {
   return (
   <>
-  <h1>Hello World</h1>
-  <HomePage />
-  <Navbar />
+
   <Onboarding />
-  <AdvisingDashboard />
-  <DataFetcher />
   </>
     
   )
